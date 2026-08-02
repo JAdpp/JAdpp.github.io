@@ -203,7 +203,6 @@ def main():
         ("altair.png", "Project", "Altair", PALETTE["deep"], "canon"),
         ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
-        ("curatorgpt.png", "Project", "CuratorGPT", PALETTE["warm"], "archive"),
     ]
     for args in covers:
         if not (COVER_DIR / args[0]).exists():

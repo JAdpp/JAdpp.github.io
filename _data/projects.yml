@@ -34,7 +34,7 @@
   area: "Multi-agent education systems and thought visualization"
   featured: true
   image: "/assets/img/covers/mindtrace.png"
-  image_alt: "Dialogue mapping view from the MindTrace learning analytics dashboard"
+  image_alt: "System pipeline of the MindTrace learning analytics platform"
   summary: "A research project on visualizing creative problem-solving processes in a multi-agent educational system, spanning interaction concepts, prototyping, and evaluation planning."
 
 - title: "BrickSmart"
@@ -54,8 +54,8 @@
   role: "Master's dissertation, UCL"
   area: "Generative AI for digital content curation in cultural heritage"
   featured: false
-  image: "/assets/img/covers/curatorgpt.png"
-  image_alt: "CuratorGPT virtual exhibition prototype interface"
+  image: "/assets/img/covers/curatorgpt.jpg"
+  image_alt: "Abstract red gallery photograph used in the CuratorGPT prototype"
   summary: "A generative curation prototype for text-image virtual exhibition content, paired with an evaluation framework for user experience and alignment."
 
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
