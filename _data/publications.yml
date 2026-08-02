@@ -6,7 +6,7 @@
   type: "Manuscript under review"
   featured: true
   image: "/assets/img/covers/artificial-wisdom.png"
-  image_alt: "Cover image for the Artificial Wisdom manuscript"
+  image_alt: "System architecture diagram for the CyberConfucius agent"
   summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
 
 - title: "PocketMuseum: Supporting Unified Inspect-Inquire-Interpret Interactions for Immersive Cultural Heritage Exploration"
@@ -17,7 +17,7 @@
   type: "Manuscript under review"
   featured: false
   image: "/assets/img/covers/pocketmuseum.png"
-  image_alt: "Cover image for the PocketMuseum manuscript"
+  image_alt: "PocketMuseum interfaces across several museum exploration scenarios"
   summary: "Under review manuscript on unified inspect-inquire-interpret interactions for immersive cultural heritage exploration."
 
 - title: "Co-teaching with AI: Designing and Evaluating a Learning Analytics Dashboard to Visualize Student-AI Interaction Traces"
@@ -28,7 +28,7 @@
   type: "Manuscript under review"
   featured: true
   image: "/assets/img/covers/co-teaching-ai.png"
-  image_alt: "Cover image for the Co-teaching with AI manuscript"
+  image_alt: "MindTrace teacher dashboard overview from the Co-teaching with AI manuscript"
   summary: "Under review manuscript on a learning analytics dashboard for visualizing student-AI interaction traces."
 
 - title: "When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support"
@@ -39,7 +39,7 @@
   type: "Poster"
   featured: true
   image: "/assets/img/covers/verse-listens-back.png"
-  image_alt: "Cover image for When Verse Listens Back"
+  image_alt: "Three-stage interaction workflow for When Verse Listens Back"
   summary: "We study how classical Chinese poetry can serve as a culturally grounded medium for multimodal AI-guided emotional support."
   links:
     - label: "DOI"
@@ -55,7 +55,7 @@
   type: "Journal article"
   featured: true
   image: "/assets/img/covers/export-watercolours.png"
-  image_alt: "Cover image for the Chinese export watercolours article"
+  image_alt: "Computational topic map of the V&A Chinese export watercolour collection"
   summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
   links:
     - label: "DOI"
@@ -71,7 +71,7 @@
   type: "Demonstration"
   featured: false
   image: "/assets/img/covers/poemithy.png"
-  image_alt: "Cover image for Poemithy"
+  image_alt: "Three-stage workflow of the Poemithy system"
   summary: "We designed and demonstrated a multimodal LLM system that connects poetic interpretation, dialogue, and visual expression in an emotional-support workflow."
   links:
     - label: "DOI"
@@ -87,7 +87,7 @@
   type: "Short paper"
   featured: false
   image: "/assets/img/covers/poetic-comfort.png"
-  image_alt: "Cover image for the poetic comfort paper"
+  image_alt: "Poemithy prototype interface montage from the poetic comfort paper"
   summary: "We propose a system framework for classical Chinese poetry therapy and discuss early interaction insights for everyday emotional-support scenarios."
   links:
     - label: "ASIS&T"
@@ -101,7 +101,7 @@
   type: "Full paper"
   featured: true
   image: "/assets/img/covers/bricksmart.png"
-  image_alt: "Cover image for BrickSmart"
+  image_alt: "BrickSmart three-step family block-play process"
   summary: "We designed a generative AI-supported family block-play system to scaffold children's spatial language learning."
   links:
     - label: "DOI"
@@ -118,7 +118,7 @@
   language: "Chinese"
   featured: false
   image: "/assets/img/covers/sucho.png"
-  image_alt: "Cover image for the digital heritage preservation article"
+  image_alt: "Homepage of Saving Ukrainian Cultural Heritage Online"
   links:
     - label: "Journal"
       url: "https://dhr.ruc.edu.cn/EN/Y2023/V3/I3/49"

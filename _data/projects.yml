@@ -3,8 +3,8 @@
   role: "Project lead"
   area: "Human-AI interaction, multimodal LLM agents, AI for Wellbeing"
   featured: true
-  image: "/assets/img/covers/poemithy.png"
-  image_alt: "Cover image for the Poemithy project"
+  image: "/assets/img/covers/poemithy-project.png"
+  image_alt: "Poemithy poetry prescription interface from the project demo"
   summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
 
 - title: "Altair"
@@ -13,7 +13,7 @@
   area: "AI-native narrative worlds, creator tools, multi-agent storytelling"
   featured: true
   image: "/assets/img/covers/altair.png"
-  image_alt: "Cover image for the Altair project direction"
+  image_alt: "Altair main capsule artwork"
   summary: "A long-term exploration of AI-native narrative world platforms, focusing publicly on persistent world memory, canon review, and creator-controlled narrative evolution."
 
 - title: "Trip Canvas"
@@ -22,7 +22,7 @@
   area: "Agent skills, visual journaling, travel scrapbook authoring"
   featured: true
   image: "/assets/img/covers/trip-canvas.png"
-  image_alt: "Cover image for the Trip Canvas open-source project"
+  image_alt: "Trip Canvas travel scrapbook project artwork"
   summary: "An open-source Codex Skill for travel scrapbook, visual journal, and mini-comic creation, with object manifests, stable IDs, layout plans, prompt packs, and a local GUI."
   links:
     - label: "GitHub"
@@ -34,7 +34,7 @@
   area: "Multi-agent education systems and thought visualization"
   featured: true
   image: "/assets/img/covers/mindtrace.png"
-  image_alt: "Cover image for the MindTrace project"
+  image_alt: "Dialogue mapping view from the MindTrace learning analytics dashboard"
   summary: "A research project on visualizing creative problem-solving processes in a multi-agent educational system, spanning interaction concepts, prototyping, and evaluation planning."
 
 - title: "BrickSmart"
@@ -43,7 +43,7 @@
   area: "Generative AI for parent-child learning"
   featured: true
   image: "/assets/img/covers/bricksmart.png"
-  image_alt: "Cover image for the BrickSmart project"
+  image_alt: "BrickSmart three-step family block-play process"
   summary: "A generative AI-supported block-play system for children's spatial language development, including prompt strategy, back-end prototyping, deployment, and user-study support."
   links:
     - label: "Paper"
@@ -55,7 +55,7 @@
   area: "Generative AI for digital content curation in cultural heritage"
   featured: false
   image: "/assets/img/covers/curatorgpt.png"
-  image_alt: "Cover image for the CuratorGPT project"
+  image_alt: "CuratorGPT virtual exhibition prototype interface"
   summary: "A generative curation prototype for text-image virtual exhibition content, paired with an evaluation framework for user experience and alignment."
 
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
@@ -64,7 +64,7 @@
   area: "Computational art history and museum data"
   featured: true
   image: "/assets/img/covers/export-watercolours.png"
-  image_alt: "Cover image for the V&A Chinese export watercolours project"
+  image_alt: "Computational topic map of the V&A Chinese export watercolour collection"
   summary: "A digital humanities project using museum metadata, collection digitization, clustering, and visual analytics to study Chinese export watercolours."
   links:
     - label: "Article"

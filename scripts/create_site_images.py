@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -169,7 +169,6 @@ def make_cover(filename, label, title, accent, motif):
         motif_scrapbook(md, 430, 105, 875, 400, [PALETTE["warm"], PALETTE["teal"], PALETTE["plum"], PALETTE["leaf"]])
     else:
         motif_network(md, 425, 105, 880, 410, accent)
-    motif_layer = motif_layer.filter(ImageFilter.GaussianBlur(0.1))
     img = Image.alpha_composite(img.convert("RGBA"), motif_layer).convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -196,6 +195,7 @@ def main():
         ("co-teaching-ai.png", "BJET", "Co-teaching with AI", PALETTE["blue"], "network"),
         ("verse-listens-back.png", "CHI EA", "When Verse Listens Back", PALETTE["teal"], "poetry"),
         ("poemithy.png", "UbiComp", "Poemithy", PALETTE["warm"], "poetry"),
+        ("poemithy-project.png", "Project", "Poemithy", PALETTE["warm"], "poetry"),
         ("poetic-comfort.png", "ASIS&T", "Poetic Comfort in Busy Life", PALETTE["plum"], "poetry"),
         ("bricksmart.png", "CHI", "BrickSmart", PALETTE["blue"], "blocks"),
         ("export-watercolours.png", "DSH", "Chinese Export Watercolours", PALETTE["leaf"], "archive"),
@@ -206,7 +206,8 @@ def main():
         ("curatorgpt.png", "Project", "CuratorGPT", PALETTE["warm"], "archive"),
     ]
     for args in covers:
-        make_cover(*args)
+        if not (COVER_DIR / args[0]).exists():
+            make_cover(*args)
 
 
 if __name__ == "__main__":
