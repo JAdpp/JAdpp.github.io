@@ -191,7 +191,7 @@ def main():
     make_headshot()
     covers = [
         ("artificial-wisdom.png", "IJHCI", "Artificial Wisdom", PALETTE["deep"], "canon"),
-        ("pocketmuseum.png", "UbiComp", "PocketMuseum", PALETTE["leaf"], "archive"),
+        ("pocketmuseum.png", "Manuscript", "PocketMuseum", PALETTE["leaf"], "archive"),
         ("co-teaching-ai.png", "BJET", "Co-teaching with AI", PALETTE["blue"], "network"),
         ("verse-listens-back.png", "CHI EA", "When Verse Listens Back", PALETTE["teal"], "poetry"),
         ("poemithy.png", "UbiComp", "Poemithy", PALETTE["warm"], "poetry"),
