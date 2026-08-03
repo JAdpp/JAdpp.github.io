@@ -195,7 +195,6 @@ def main():
         ("co-teaching-ai.png", "BJET", "Co-teaching with AI", PALETTE["blue"], "network"),
         ("verse-listens-back.png", "CHI EA", "When Verse Listens Back", PALETTE["teal"], "poetry"),
         ("poemithy.png", "UbiComp", "Poemithy", PALETTE["warm"], "poetry"),
-        ("poemithy-project.png", "Project", "Poemithy", PALETTE["warm"], "poetry"),
         ("poetic-comfort.png", "ASIS&T", "Poetic Comfort in Busy Life", PALETTE["plum"], "poetry"),
         ("bricksmart.png", "CHI", "BrickSmart", PALETTE["blue"], "blocks"),
         ("export-watercolours.png", "DSH", "Chinese Export Watercolours", PALETTE["leaf"], "archive"),

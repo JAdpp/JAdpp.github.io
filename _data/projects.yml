@@ -4,7 +4,7 @@
   area: "Human-AI collaboration, multimodal LLM agents, AI for Wellbeing"
   featured: true
   image: "/assets/img/covers/poemithy-project.png"
-  image_alt: "Poemithy poetry prescription interface from the project demo"
+  image_alt: "Poemithy landing page with a classical Chinese poetry title and poet guide"
   summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
 
 - title: "Altair"
