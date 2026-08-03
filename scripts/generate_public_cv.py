@@ -19,7 +19,7 @@ OUTPUT = ROOT / "files" / "Yangming_Zhang_Public_CV.pdf"
 
 
 PROFILE = (
-    "Ph.D. student working on Human-AI Collaboration, multimodal LLM agents, "
+    "Ph.D. student working on Human-AI collaboration, multimodal LLM agents, "
     "cultural intelligence, and AI for Wellbeing. My work focuses on culturally "
     "situated human-AI collaboration in emotional support, education, and digital "
     "cultural heritage contexts, combining interactive system building, user "
@@ -32,7 +32,7 @@ EDUCATION = [
         "Wuhan University",
         "Ph.D. Student, School of Information Management / Cultural Heritage Intelligent Computing Lab",
         "2024-Present",
-        "Research interests: Human-AI Collaboration, intelligent computing for digital cultural heritage, AI-native applications.",
+        "Research interests: Human-AI collaboration, intelligent computing for digital cultural heritage, AI-native applications.",
     ),
     (
         "University College London",
@@ -91,7 +91,7 @@ PROJECTS = [
 SKILLS = [
     "LLM and agent systems: LangChain, Dify, Coze, prompt/context orchestration, multimodal API integration and testing.",
     "Programming and systems: Python, JavaScript, Django, SQL, HTML/CSS, Git, data processing, and cloud deployment.",
-    "Research methods: Human-AI Collaboration research, user studies, system evaluation, mixed-methods analysis, and digital humanities data analysis.",
+    "Research methods: Human-AI collaboration research, user studies, system evaluation, mixed-methods analysis, and digital humanities data analysis.",
     "Design and content production: Photoshop, Illustrator, InDesign, Premiere, digital painting, and AIGC-based visual workflows.",
 ]
 

@@ -14,7 +14,7 @@ A downloadable CV is available below. The PDF excludes phone number and email in
 
 ## Profile
 
-Ph.D. student working on Human-AI Collaboration, multimodal LLM agents, cultural intelligence, and AI for Wellbeing, with a focus on culturally situated human-AI collaboration in mental health, education, and digital cultural heritage contexts.
+Ph.D. student working on Human-AI collaboration, multimodal LLM agents, cultural intelligence, and AI for Wellbeing, with a focus on culturally situated human-AI collaboration in mental health, education, and digital cultural heritage contexts.
 
 ## Education
 
