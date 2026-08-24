@@ -2,9 +2,9 @@
 
 Jekyll academic homepage for GitHub Pages.
 
-Live site: https://jadpp.github.io/ymzhang.github.io/
+Live site: https://jadpp.github.io/
 
-Repository: https://github.com/JAdpp/ymzhang.github.io
+Repository: https://github.com/JAdpp/JAdpp.github.io
 
 ## Local build
 
@@ -17,7 +17,7 @@ bundle exec jekyll serve
 
 ## Deployment
 
-Deploy from the `main` branch of `JAdpp/ymzhang.github.io` using GitHub Pages. The custom domain `ymzhang.space` is intentionally not configured in v1.
+Deploy from the `main` branch of `JAdpp/JAdpp.github.io` using GitHub Pages. No custom domain is configured.
 
 ## CV
 
