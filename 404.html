@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page not found | Yangming Zhang</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script>
+      (() => {
+        const legacyPrefix = "/ymzhang.github.io";
+        const currentPath = window.location.pathname;
+
+        if (currentPath === legacyPrefix || currentPath.startsWith(`${legacyPrefix}/`)) {
+          const nextPath = currentPath.slice(legacyPrefix.length) || "/";
+          window.location.replace(nextPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <h1>Page not found</h1>
+      <p><a href="/">Return home</a></p>
+    </main>
+  </body>
+</html>
