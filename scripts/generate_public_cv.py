@@ -76,6 +76,11 @@ PROJECTS = [
         "Worked on prompt strategies, multimodal model/API testing, Python/Django back-end development, deployment, and offline user-study support for a parent-child spatial language learning system.",
     ),
     (
+        "dsh-whale-galgame",
+        "2026-Present",
+        "Created and maintained an open-source multi-model visual novel plugin for DeepSeek Harness, with separate character and reply-model routing, persistent per-character state, bounded cross-session task cues, side stories, and a desktop companion.",
+    ),
+    (
         "Co-Created Travel Journal",
         "2026-Present",
         "Developed an AI-assisted travel memory workspace that preserves user-confirmed wording and keeps photographs, captions, and generated visual elements independently editable and exportable.",
