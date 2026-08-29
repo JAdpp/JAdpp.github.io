@@ -490,6 +490,11 @@ h3 {
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
+.project-card__cover--contain {
+  object-fit: contain;
+  background: #f0f1dc;
+}
+
 .project-card__eyebrow,
 .project-card__area {
   margin: 0 0 0.35rem;

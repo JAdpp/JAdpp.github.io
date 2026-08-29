@@ -200,7 +200,6 @@ def main():
         ("export-watercolours.png", "DSH", "Chinese Export Watercolours", PALETTE["leaf"], "archive"),
         ("sucho.png", "DHR", "Digital Heritage in Conflict Areas", PALETTE["deep"], "archive"),
         ("altair.png", "Project", "Altair", PALETTE["deep"], "canon"),
-        ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
     ]
     for args in covers:

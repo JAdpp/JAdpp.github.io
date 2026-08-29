@@ -3,7 +3,7 @@
     <article class="project-card">
       {% if project.image %}
         {% assign project_alt = project.image_alt | default: project.title %}
-        <img class="project-card__cover" src="{{ project.image | relative_url }}" alt="{{ project_alt | escape }}" loading="lazy">
+        <img class="project-card__cover{% if project.image_fit == 'contain' %} project-card__cover--contain{% endif %}" src="{{ project.image | relative_url }}" alt="{{ project_alt | escape }}" loading="lazy">
       {% endif %}
       <div class="project-card__eyebrow">{{ project.period }} / {{ project.role }}</div>
       <h3>{{ project.title }}</h3>

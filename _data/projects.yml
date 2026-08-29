@@ -1,7 +1,7 @@
 - title: "Poemithy / Classical Chinese Poetry Therapy"
   period: "2024-Present"
   role: "Project lead"
-  area: "Human-AI collaboration, multimodal LLM agents, AI for Wellbeing"
+  area: "Human-AI collaboration, multimodal LLM agents, AI for mental wellbeing"
   featured: true
   image: "/assets/img/covers/poemithy-project.png"
   image_alt: "Poemithy landing page with a classical Chinese poetry title and poet guide"
@@ -16,17 +16,31 @@
   image_alt: "Altair main capsule artwork"
   summary: "A long-term exploration of AI-native narrative world platforms, focusing publicly on persistent world memory, canon review, and creator-controlled narrative evolution."
 
-- title: "Trip Canvas"
-  period: "2026"
-  role: "Personal open-source project"
-  area: "Agent skills, visual journaling, travel scrapbook authoring"
+- title: "Co-Created Travel Journal (共笔手帐)"
+  period: "2026-Present"
+  role: "Creator and developer"
+  area: "Human-AI co-authoring, travel memory, editable visual journaling"
   featured: true
-  image: "/assets/img/covers/trip-canvas.png"
-  image_alt: "Trip Canvas travel scrapbook project artwork"
-  summary: "An open-source Codex Skill for travel scrapbook, visual journal, and mini-comic creation, with object manifests, stable IDs, layout plans, prompt packs, and a local GUI."
+  image: "/assets/img/covers/co-created-travel-journal.png"
+  image_alt: "Homepage of Co-Created Travel Journal with an AI-assisted travel journal over a coastal landscape"
+  summary: "An AI-assisted travel memory workspace spanning pre-trip planning, in-trip capture, and post-trip reflection. User-confirmed wording, photographs, and generated stickers remain traceable and independently editable before image or project export."
   links:
+    - label: "Demo"
+      url: "http://47.89.246.208:8083/#open-method"
     - label: "GitHub"
       url: "https://github.com/JAdpp/trip-canvas"
+
+- title: "Mengdie Ji (梦蝶记)"
+  period: "2026-Present"
+  role: "Creator and developer"
+  area: "Culturally grounded narrative agents and game intelligence"
+  featured: true
+  image: "/assets/img/covers/mengdie-ji.png"
+  image_alt: "Homepage of Mengdie Ji with classical Chinese narrative imagery and its story guide"
+  summary: "An adult-oriented interactive narrative experience that pairs a user-confirmed recent experience with a traceable story from classical Chinese mythology. Source narratives remain distinct from contemporary adaptations, and users can revise or reject the proposed connection."
+  links:
+    - label: "Demo"
+      url: "http://47.89.246.208:8082/#open-method"
 
 - title: "MindTrace"
   period: "2025"
@@ -49,23 +63,29 @@
     - label: "Paper"
       url: "https://doi.org/10.1145/3706598.3714212"
 
-- title: "CuratorGPT"
-  period: "2023"
-  role: "Master's dissertation, UCL"
-  area: "Generative AI for digital content curation in cultural heritage"
+- title: "Woyou (卧游)"
+  period: "2026-Present"
+  role: "Project lead"
+  area: "Evidence-grounded agents, AI curation, digital cultural heritage"
   featured: false
-  image: "/assets/img/covers/curatorgpt.jpg"
-  image_alt: "Abstract red gallery photograph used in the CuratorGPT prototype"
-  summary: "A generative curation prototype for text-image virtual exhibition content, paired with an evaluation framework for user experience and alignment."
+  image: "/assets/img/covers/woyou.png"
+  image_alt: "Homepage of Woyou with an AI curator and an open museum collection wall"
+  summary: "An evidence-grounded AI curator that turns visitor questions into source-traceable 3D and 2D virtual exhibitions drawn from openly licensed museum collections. Its controlled agent workflow separates institutional records, curatorial interpretation, and uncertainty."
+  links:
+    - label: "Demo"
+      url: "http://47.89.246.208:8081/#open-method"
 
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
   period: "2022-2023"
-  role: "Research assistant / project researcher"
+  role: "M.Sc. Digital Humanities project team member, UCL / Victoria and Albert Museum (V&A), UK"
   area: "Computational art history and museum data"
   featured: true
-  image: "/assets/img/covers/export-watercolours.png"
-  image_alt: "Computational topic map of the V&A Chinese export watercolour collection"
-  summary: "A digital humanities project using museum metadata, collection digitization, clustering, and visual analytics to study Chinese export watercolours."
+  image: "/assets/img/covers/cew-project-logo.png"
+  image_alt: "Chinese Export Watercolours project logo"
+  image_fit: "contain"
+  summary: "A UCL-V&A digital humanities project using museum metadata, collection digitization, clustering, and visual analytics to study Chinese export watercolours at the UK's Victoria and Albert Museum (V&A)."
   links:
+    - label: "Project"
+      url: "https://www.ucl.ac.uk/arts-humanities/information-studies/research/chinese-export-watercolours-hub-cew-hub-project/ucl-va-chinese-export-watercolours-cew-project"
     - label: "Article"
       url: "https://doi.org/10.1093/llc/fqag046"

@@ -7,7 +7,7 @@ title: Home
   <h1>Hi, I'm Yangming Zhang.</h1>
   <div class="hero__content">
     <p class="lead">
-      I'm a Ph.D. student in the School of Information Management at Wuhan University, advised by Assoc. Prof. Liang Zhao and Prof. Jie Xu, and a student researcher at the <a href="https://iclch.whu.edu.cn/">Intelligent Computing Laboratory for Cultural Heritage (ICLCH)</a>. I work on Human-AI collaboration, culturally grounded multimodal LLM agents, and AI systems for wellbeing, education, and digital cultural heritage.
+      I'm a Ph.D. student in the School of Information Management at Wuhan University, advised by Assoc. Prof. Liang Zhao and Prof. Jie Xu, and a student researcher at the <a href="https://iclch.whu.edu.cn/">Intelligent Computing Laboratory for Cultural Heritage (ICLCH)</a>. I work on Human-AI collaboration, culturally grounded multimodal LLM agents, and AI systems for mental wellbeing, education, and digital cultural heritage.
     </p>
     <p>
       My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage. I build interactive prototypes and evaluate them through user studies and mixed methods.
@@ -33,9 +33,8 @@ title: Home
   <div>
     <h2>Research Interests</h2>
     <ul class="interest-list">
-      <li>Human-AI collaboration and human-centered evaluation</li>
-      <li>Culturally grounded AI agents and multimodal LLM systems</li>
-      <li>AI for Wellbeing, education, and creative support</li>
+      <li>Human-AI collaboration for mental wellbeing and learning</li>
+      <li>Culturally grounded multimodal agents, creative systems, and game intelligence</li>
       <li>Digital cultural heritage and computational humanities</li>
     </ul>
   </div>

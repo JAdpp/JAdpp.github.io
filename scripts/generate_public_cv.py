@@ -20,7 +20,7 @@ OUTPUT = ROOT / "files" / "Yangming_Zhang_Public_CV.pdf"
 
 PROFILE = (
     "Ph.D. student working on Human-AI collaboration, multimodal LLM agents, "
-    "cultural intelligence, and AI for Wellbeing. My work focuses on culturally "
+    "cultural intelligence, and AI for mental wellbeing. My work focuses on culturally "
     "situated human-AI collaboration in emotional support, education, and digital "
     "cultural heritage contexts, combining interactive system building, user "
     "studies, and mixed-methods evaluation."
@@ -76,14 +76,24 @@ PROJECTS = [
         "Worked on prompt strategies, multimodal model/API testing, Python/Django back-end development, deployment, and offline user-study support for a parent-child spatial language learning system.",
     ),
     (
-        "CuratorGPT",
-        "2023",
-        "Developed a generative curation prototype integrating language and image generation models, paired with a mixed-methods evaluation framework for virtual exhibition content.",
+        "Co-Created Travel Journal",
+        "2026-Present",
+        "Developed an AI-assisted travel memory workspace that preserves user-confirmed wording and keeps photographs, captions, and generated visual elements independently editable and exportable.",
+    ),
+    (
+        "Mengdie Ji",
+        "2026-Present",
+        "Developed a culturally grounded interactive narrative experience that connects user-confirmed personal experiences with traceable classical Chinese stories while separating source material from contemporary adaptation.",
+    ),
+    (
+        "Woyou",
+        "2026-Present",
+        "Developed an evidence-grounded AI curator for source-traceable 3D and 2D virtual exhibitions using openly licensed museum collections and a controlled agent workflow.",
     ),
     (
         "V&A Chinese Export Watercolours Digitization and Computational Analysis",
         "2022-2023",
-        "Worked with Chinese iconography data, open museum metadata, collection digitization, and computational analysis of Chinese export watercolours.",
+        "Worked with UCL and the UK's Victoria and Albert Museum (V&A) on Chinese iconography data, open museum metadata, collection digitization, and computational analysis of Chinese export watercolours.",
     ),
 ]
 

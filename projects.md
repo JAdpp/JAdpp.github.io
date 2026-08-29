@@ -6,6 +6,6 @@ permalink: /projects/
 
 # Projects
 
-Selected research projects across Human-AI collaboration, multimodal LLM systems, digital cultural heritage, and AI-supported learning.
+Selected projects in Human-AI collaboration for mental wellbeing and learning, culturally grounded narrative and game intelligence, and digital cultural heritage.
 
 {% include project-list.html projects=site.data.projects %}
