@@ -51,8 +51,8 @@
   image_alt: "Homepage of Mengdie Ji with classical Chinese narrative imagery and its story guide"
   summary: "An adult-oriented interactive narrative experience that pairs a user-confirmed recent experience with a traceable story from classical Chinese mythology. Source narratives remain distinct from contemporary adaptations, and users can revise or reject the proposed connection."
   links:
-    - label: "Demo"
-      url: "http://47.89.246.208:8082/#open-method"
+    - label: "GitHub"
+      url: "https://github.com/JAdpp/myth-ritual-demo"
 
 - title: "MindTrace"
   period: "2025"
@@ -84,8 +84,8 @@
   image_alt: "Homepage of Woyou with an AI curator and an open museum collection wall"
   summary: "An evidence-grounded AI curator that turns visitor questions into source-traceable 3D and 2D virtual exhibitions drawn from openly licensed museum collections. Its controlled agent workflow separates institutional records, curatorial interpretation, and uncertainty."
   links:
-    - label: "Demo"
-      url: "http://47.89.246.208:8081/#open-method"
+    - label: "GitHub"
+      url: "https://github.com/JAdpp/inquiry-curator"
 
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
   period: "2022-2023"
