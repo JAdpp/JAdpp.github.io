@@ -1,4 +1,35 @@
 (() => {
+  const root = document.documentElement;
+  const themeToggle = document.querySelector(".theme-toggle");
+
+  const updateThemeToggle = () => {
+    if (!themeToggle) {
+      return;
+    }
+
+    const isDark = root.dataset.theme === "dark";
+    const label = isDark ? "Switch to light mode" : "Switch to dark mode";
+    themeToggle.setAttribute("aria-label", label);
+    themeToggle.setAttribute("aria-pressed", String(isDark));
+    themeToggle.title = label;
+  };
+
+  if (themeToggle) {
+    updateThemeToggle();
+    themeToggle.addEventListener("click", () => {
+      const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = nextTheme;
+
+      try {
+        localStorage.setItem("ymzhang-theme", nextTheme);
+      } catch (_) {
+        // Theme switching still works when storage is unavailable.
+      }
+
+      updateThemeToggle();
+    });
+  }
+
   const header = document.querySelector(".site-header");
 
   if (header) {

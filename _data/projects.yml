@@ -11,7 +11,7 @@
   period: "2025-Present"
   role: "Personal long-term direction"
   area: "AI-native narrative worlds, creator tools, multi-agent storytelling"
-  featured: true
+  featured: false
   image: "/assets/img/covers/altair.png"
   image_alt: "Altair main capsule artwork"
   summary: "A long-term exploration of AI-native narrative world platforms, focusing publicly on persistent world memory, canon review, and creator-controlled narrative evolution."
@@ -67,7 +67,7 @@
   period: "2024"
   role: "Research intern, Future Laboratory, Tsinghua University"
   area: "Generative AI for parent-child learning"
-  featured: true
+  featured: false
   image: "/assets/img/covers/bricksmart.png"
   image_alt: "BrickSmart three-step family block-play process"
   summary: "A generative AI-supported block-play system for children's spatial language development, including prompt strategy, back-end prototyping, deployment, and user-study support."
