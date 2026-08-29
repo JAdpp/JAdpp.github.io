@@ -94,7 +94,6 @@
   featured: true
   image: "/assets/img/covers/cew-project-logo.png"
   image_alt: "Chinese Export Watercolours project logo"
-  image_fit: "contain"
   summary: "A UCL-V&A digital humanities project using museum metadata, collection digitization, clustering, and visual analytics to study Chinese export watercolours at the UK's Victoria and Albert Museum (V&A)."
   links:
     - label: "Project"
