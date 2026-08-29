@@ -10,10 +10,10 @@ title: Home
       I'm a Ph.D. student in the School of Information Management at Wuhan University, advised by Assoc. Prof. Liang Zhao and Prof. Jie Xu, and a student researcher at the <a href="https://iclch.whu.edu.cn/">Intelligent Computing Laboratory for Cultural Heritage (ICLCH)</a>. I work on Human-AI collaboration, culturally grounded multimodal LLM agents, and AI systems for mental wellbeing, education, and digital cultural heritage.
     </p>
     <p>
-      My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage. I build interactive prototypes and evaluate them through user studies and mixed methods.
+      My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage, and to AI-native games and interactive narratives. I build interactive prototypes and evaluate them through user studies and mixed methods.
     </p>
     <p>
-      Previously, I received an M.Sc. in Digital Humanities from University College London (UCL) and a B.Sc. from Wuhan University.
+      Previously, I received an M.Sc. in Digital Humanities from University College London (UCL) and a B.Sc. from Wuhan University. Outside research, I enjoy creating fan works inspired by anime and games.
     </p>
   </div>
   <aside class="hero__aside">
