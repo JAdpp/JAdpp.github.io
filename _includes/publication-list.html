@@ -4,7 +4,7 @@
       {% if pub.image %}
         {% assign primary_link = pub.links | first %}
         {% assign pub_alt = pub.image_alt | default: pub.title %}
-        <a class="pub-item__cover" href="{% if primary_link %}{{ primary_link.url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}" aria-label="{{ pub.title | escape }}">
+        <a class="pub-item__cover{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% endif %}" href="{% if primary_link %}{{ primary_link.url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}" aria-label="{{ pub.title | escape }}">
           <img src="{{ pub.image | relative_url }}" alt="{{ pub_alt | escape }}" loading="lazy">
         </a>
       {% endif %}

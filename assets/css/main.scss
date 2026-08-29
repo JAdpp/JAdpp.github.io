@@ -503,6 +503,14 @@ h3 {
   transition: transform 220ms ease;
 }
 
+.pub-item__cover--contain {
+  background: var(--logo-bg);
+}
+
+.pub-item__cover--contain img {
+  object-fit: contain;
+}
+
 .pub-item__year {
   color: var(--muted);
   font-weight: 700;

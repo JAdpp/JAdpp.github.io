@@ -59,6 +59,11 @@ PUBLICATIONS = [
 ]
 
 
+PREPRINTS = [
+    "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao. Poetic Heritage for Culturally Grounded Emotional Support: An Interaction Design Framework and Its Multimodal Agentic Instantiation. arXiv:2608.22639 [cs.HC], 2026. First author.",
+]
+
+
 PROJECTS = [
     (
         "Poemithy / Classical Chinese Poetry Therapy",
@@ -241,6 +246,10 @@ def build_pdf():
         )
     )
     story.append(table)
+
+    add_section(story, "Preprints", styles)
+    for item in PREPRINTS:
+        story.append(bullet(highlight_author(item), styles))
 
     add_section(story, "Selected Publications", styles)
     for item in PUBLICATIONS:

@@ -9,6 +9,23 @@
   image_alt: "System architecture diagram for the CyberConfucius agent"
   summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
 
+- title: "Poetic Heritage for Culturally Grounded Emotional Support: An Interaction Design Framework and Its Multimodal Agentic Instantiation"
+  authors: "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao"
+  venue: "arXiv preprint, arXiv:2608.22639 [cs.HC]"
+  year: 2026
+  role: "First author"
+  type: "Preprint"
+  featured: true
+  image: "/assets/img/covers/poetic-heritage-framework.png"
+  image_alt: "Three-layer interaction design framework for culturally grounded emotional support"
+  image_fit: "contain"
+  summary: "We developed and evaluated a three-layer interaction design framework for culturally grounded emotional support, instantiated in the multimodal multi-agent Poemithy system and studied with 50 participants."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2608.22639"
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/2608.22639"
+
 - title: "PocketMuseum: Supporting Unified Inspect-Inquire-Interpret Interactions for Immersive Cultural Heritage Exploration"
   authors: "Liang Zhao, Zhaoduo Li, Yangming Zhang, Qi Li*, Yue Gu*"
   venue: "Under review"
@@ -37,7 +54,7 @@
   year: 2026
   role: "First author"
   type: "Poster"
-  featured: true
+  featured: false
   image: "/assets/img/covers/verse-listens-back.png"
   image_alt: "Three-stage interaction workflow for When Verse Listens Back"
   summary: "We study how classical Chinese poetry can serve as a culturally grounded medium for multimodal AI-guided emotional support."
