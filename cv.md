@@ -24,6 +24,7 @@ Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental
 
 ## Research Experience
 
+- **Department of Information Management, Peking University** — Visiting student, Sep 2025-Jan 2026.
 - **MindTrace, Future Laboratory, Tsinghua University** — Research intern, 2025. Thought visualization and multi-agent educational systems.
 - **V&A Chinese Export Watercolours Digitization and Computational Analysis** — Research assistant / project researcher, 2022-2023. Digitization and computational analysis of the Victoria and Albert Museum collection.
 - **Generative AI for Digital Content Curation in Cultural Heritage** — M.Sc. dissertation, UCL, 2023. GPT-3.5 and DALL-E 2 prototype for virtual-exhibition curation.

@@ -51,6 +51,12 @@ EDUCATION = [
 
 RESEARCH_EXPERIENCE = [
     (
+        "Department of Information Management, Peking University",
+        "Visiting student",
+        "Sep 2025-Jan 2026",
+        "",
+    ),
+    (
         "MindTrace, Future Laboratory, Tsinghua University",
         "Research intern",
         "2025",
