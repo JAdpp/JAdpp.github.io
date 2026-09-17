@@ -1,44 +1,44 @@
+from html import escape
 from pathlib import Path
 
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
-from reportlab.platypus import (
-    PageBreak,
-    Paragraph,
-    SimpleDocTemplate,
-    Spacer,
-    Table,
-    TableStyle,
-)
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "files" / "Yangming_Zhang_Public_CV.pdf"
 
+FONT_DIR = Path(r"C:\Windows\Fonts")
+pdfmetrics.registerFont(TTFont("TimesNewRoman", str(FONT_DIR / "times.ttf")))
+pdfmetrics.registerFont(TTFont("TimesNewRoman-Bold", str(FONT_DIR / "timesbd.ttf")))
+pdfmetrics.registerFont(TTFont("TimesNewRoman-Italic", str(FONT_DIR / "timesi.ttf")))
+
 
 PROFILE = (
-    "Ph.D. student working on Human-AI collaboration, multimodal LLM agents, "
-    "cultural intelligence, and AI for mental wellbeing. My work focuses on culturally "
-    "situated human-AI collaboration in emotional support, education, and digital "
-    "cultural heritage contexts, combining interactive system building, user "
-    "studies, and mixed-methods evaluation."
+    "Ph.D. student in the School of Information Management at Wuhan University and a student researcher "
+    "at the Intelligent Computing Laboratory for Cultural Heritage (ICLCH). I study human-AI collaboration, "
+    "culturally grounded multimodal LLM agents, AI for mental wellbeing and education, digital cultural heritage, "
+    "and AI-native games."
 )
 
 
 EDUCATION = [
     (
         "Wuhan University",
-        "Ph.D. Student, School of Information Management / Cultural Heritage Intelligent Computing Lab",
+        "Ph.D. student, School of Information Management / ICLCH",
         "2024-Present",
-        "Research interests: Human-AI collaboration, intelligent computing for digital cultural heritage, AI-native applications.",
+        "Research on human-AI collaboration, intelligent computing for digital cultural heritage, and AI-native applications.",
     ),
     (
-        "University College London",
-        "M.Sc. in Digital Humanities, Department of Information Studies",
+        "University College London (UCL)",
+        "M.Sc. Digital Humanities, Department of Information Studies",
         "2022-2023",
-        "Distinction, Top 1; Dissertation Showcase; Faculty of Arts and Humanities Dean's List.",
+        "Distinction; Top 1; Dissertation Showcase; Faculty of Arts and Humanities Dean's List.",
     ),
     (
         "Wuhan University",
@@ -49,18 +49,53 @@ EDUCATION = [
 ]
 
 
-PUBLICATIONS = [
-    "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao. When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support. CHI EA 2026. First author.",
-    "Yangming Zhang*, Bin Wu*, Zihan Zeng, Jie Xu, Yunpeng Song, Liang Zhao. Poemithy: Leveraging Multimodal LLMs for Emotional Healing through Classical Chinese Poetry. UbiComp/ISWC Companion 2025. Co-first author.",
-    "Yangming Zhang, Liang Zhao, Jie Xu. \"It Helps Me Find Poetic Comfort in My Busy Life\": A Multimodal LLM-Based Classical Chinese Poetry Therapy System Framework. ASIS&T Annual Meeting 2025. First author.",
-    "Yujia Liu*, Siyu Zha*, Yuewen Zhang, Yanjin Wang, Yangming Zhang, Qi Xin, Lunyiu Nie, Chao Zhang, Yingqing Xu. BrickSmart: Leveraging Generative AI to Support Children's Spatial Language Learning in Family Block Play. CHI 2025. Co-author.",
-    "Jin Gao, Yangming Zhang, Jiawei Liu, Jose Pedro Sousa. A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection. Digital Scholarship in the Humanities, 41(2), 692-714, 2026. Second author.",
-    "Yangming Zhang. Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online. Digital Humanities Research, 3(03), 49-58, 2023. In Chinese. Sole author.",
+RESEARCH_EXPERIENCE = [
+    (
+        "MindTrace, Future Laboratory, Tsinghua University",
+        "Research intern",
+        "2025",
+        "Designed thought-visualization approaches for creative problem solving in a multi-agent educational system; contributed to system prototyping and evaluation planning.",
+    ),
+    (
+        "V&A Chinese Export Watercolours Digitization and Computational Analysis",
+        "Research assistant / project researcher",
+        "2022-2023",
+        "Worked with the Victoria and Albert Museum collection: transcribed 5,000+ corpus records, prepared 300 metadata records, digitized 3,000+ paintings, and supported computational classification into 22 thematic categories.",
+    ),
+    (
+        "Generative AI for Digital Content Curation in Cultural Heritage",
+        "M.Sc. dissertation, UCL",
+        "2023",
+        "Built a prototype combining GPT-3.5 and DALL-E 2 for virtual-exhibition curation and developed a mixed evaluation framework for generated cultural-heritage content.",
+    ),
+    (
+        "BrickSmart, Future Laboratory, Tsinghua University",
+        "Research intern",
+        "2024",
+        "Supported prompt design, multimodal model testing, Python/Django development, deployment, and user-study preparation for a family block-play learning system.",
+    ),
+    (
+        "Digital Humanities Institute, Renmin University of China",
+        "Student researcher",
+        "2023-2024",
+        "Produced digital-humanities review reports and helped plan and organize an academic salon on AI agents.",
+    ),
+    (
+        "National Science Library, Chinese Academy of Sciences",
+        "Science exhibition curation and implementation intern",
+        "2024",
+        "Developed a Coze-based agent workflow for science communication, curated 60 CAS WeChat posts, and contributed to a strategic proposal for the 15th Five-Year Plan.",
+    ),
 ]
 
 
-PREPRINTS = [
-    "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao. Poetic Heritage for Culturally Grounded Emotional Support: An Interaction Design Framework and Its Multimodal Agentic Instantiation. arXiv:2608.22639 [cs.HC], 2026. First author.",
+PUBLICATIONS = [
+    "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, and Liang Zhao. When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support. CHI EA 2026.",
+    "Jin Gao, Yangming Zhang, Jiawei Liu, and Jose Pedro Sousa. A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection. Digital Scholarship in the Humanities, 41(2), 692-714, 2026.",
+    "Yangming Zhang*, Bin Wu*, Zihan Zeng, Jie Xu, Yunpeng Song, and Liang Zhao. Poemithy: Leveraging Multimodal LLMs for Emotional Healing through Classical Chinese Poetry. UbiComp/ISWC Companion 2025. (*Co-first authors.)",
+    "Yangming Zhang, Liang Zhao, and Jie Xu. \"It Helps Me Find Poetic Comfort in My Busy Life\": A Multimodal LLM-Based Classical Chinese Poetry Therapy System Framework. ASIS&T Annual Meeting 2025.",
+    "Yujia Liu*, Siyu Zha*, Yuewen Zhang, Yanjin Wang, Yangming Zhang, Qi Xin, Lunyiu Nie, Chao Zhang, and Yingqing Xu. BrickSmart: Leveraging Generative AI to Support Children's Spatial Language Learning in Family Block Play. CHI 2025. (*Co-first authors.)",
+    "Yangming Zhang. Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online. Digital Humanities Research, 3(03), 49-58, 2023. In Chinese.",
 ]
 
 
@@ -68,73 +103,129 @@ PROJECTS = [
     (
         "Poemithy / Classical Chinese Poetry Therapy",
         "2024-Present",
-        "Designed and evaluated a multimodal LLM-based interaction system for emotional support, exploring classical Chinese poetry as a culturally grounded medium. Related outputs include CHI EA 2026, UbiComp/ISWC Companion 2025, and ASIS&T 2025.",
-    ),
-    (
-        "MindTrace, Future Laboratory, Tsinghua University",
-        "2025",
-        "Designed thought-visualization approaches for creative problem solving in a multi-agent educational system; contributed to system pipeline work, front-end/back-end prototyping, and evaluation planning.",
-    ),
-    (
-        "BrickSmart, Future Laboratory, Tsinghua University",
-        "2024",
-        "Worked on prompt strategies, multimodal model/API testing, Python/Django back-end development, deployment, and offline user-study support for a parent-child spatial language learning system.",
+        "A multimodal LLM interaction system that connects poetic interpretation, dialogue, and visual expression for culturally grounded emotional support.",
+        "https://github.com/JAdpp",
     ),
     (
         "dsh-whale-galgame",
         "2026-Present",
-        "Created and maintained an open-source multi-model visual novel plugin for DeepSeek Harness, with separate character and reply-model routing, persistent per-character state, bounded cross-session task cues, side stories, and a desktop companion.",
+        "An open-source multi-model visual-novel plugin for DeepSeek Harness, with character-aware routing, persistent state, and interactive story extensions.",
+        "https://github.com/JAdpp/dsh-whale-galgame",
     ),
     (
-        "Co-Created Travel Journal",
+        "Co-Created Travel Journal (Trip Canvas)",
         "2026-Present",
-        "Developed an AI-assisted travel memory workspace that preserves user-confirmed wording and keeps photographs, captions, and generated visual elements independently editable and exportable.",
+        "An open-source agent skill for turning travel materials into editable visual journals, object manifests, layout plans, and mini-comics.",
+        "https://github.com/JAdpp/trip-canvas",
     ),
     (
         "Mengdie Ji",
         "2026-Present",
-        "Developed a culturally grounded interactive narrative experience that connects user-confirmed personal experiences with traceable classical Chinese stories while separating source material from contemporary adaptation.",
+        "A culturally grounded interactive narrative project exploring dream, memory, and classical literary motifs through agent-assisted storytelling.",
+        "https://github.com/JAdpp/myth-ritual-demo",
     ),
     (
         "Woyou",
         "2026-Present",
-        "Developed an evidence-grounded AI curator for source-traceable 3D and 2D virtual exhibitions using openly licensed museum collections and a controlled agent workflow.",
-    ),
-    (
-        "V&A Chinese Export Watercolours Digitization and Computational Analysis",
-        "2022-2023",
-        "Worked with UCL and the UK's Victoria and Albert Museum (V&A) on Chinese iconography data, open museum metadata, collection digitization, and computational analysis of Chinese export watercolours.",
+        "An AI-assisted cultural-heritage curation project for organizing, interpreting, and presenting digital materials as exploratory exhibits.",
+        "https://github.com/JAdpp/inquiry-curator",
     ),
 ]
 
 
-SKILLS = [
-    "LLM and agent systems: LangChain, Dify, Coze, prompt/context orchestration, multimodal API integration and testing.",
-    "Programming and systems: Python, JavaScript, Django, SQL, HTML/CSS, Git, data processing, and cloud deployment.",
-    "Research methods: Human-AI collaboration research, user studies, system evaluation, mixed-methods analysis, and digital humanities data analysis.",
-    "Design and content production: Photoshop, Illustrator, InDesign, Premiere, digital painting, and AIGC-based visual workflows.",
+ADDITIONAL_EXPERIENCE = [
+    (
+        "Tsinghua University Library",
+        "Multimedia Resources Services Librarian",
+        "2021-2022",
+        "Created metadata for vinyl records and multimedia resources, and supported reading promotion, video production, and user surveys.",
+    ),
+    (
+        "Research on Chinese Academic Integrity Policy Data",
+        "Research intern",
+        "2017",
+        "Collected academic norms and morality policies from 100+ institutions and contributed to a preliminary research dataset.",
+    ),
+    (
+        "Application of Virtual Reality in Chinese Public Libraries",
+        "Team leader",
+        "2016-2017",
+        "Led a four-student field-research team, conducted 500+ questionnaires and expert interviews, and produced a 20,000-word report with recommendations.",
+    ),
+    (
+        "Wuhan Library, Chinese Academy of Sciences",
+        "Intern leader",
+        "2018",
+        "Transcribed 500+ records and organized 10,000+ government-information records using Excel/VBA and improved label-code accuracy.",
+    ),
 ]
 
 
 HONORS = [
     "First-Class Academic Excellence Scholarship, School of Information Management, Wuhan University, 2025.",
-    "First-Class Guangdong Xinhua Elite Scholarship, School of Information Management, Wuhan University.",
-    "Faculty of Arts and Humanities Dean's List, UCL; Distinction / Top 1 in M.Sc. Digital Humanities; Dissertation Showcase, 2023.",
+    "First-Class Guangdong Xinhua Elite Scholarship, Wuhan University.",
+    "UCL Faculty of Arts and Humanities Dean's List; Distinction / Top 1 in M.Sc. Digital Humanities; Dissertation Showcase, 2023.",
+    "Merit Award, Global Digital Intelligence Education Innovation Competition; CDH2024 AIGC Excellent Project Award, for Poemithy.",
+    "Excellent Graduation Thesis Nomination, Wuhan University, 2019; Excellent Practical Student Researcher, 2016.",
 ]
 
 
+SKILLS = (
+    "Programming and systems: Python, JavaScript, PHP, Django, LangChain, Dify, multimodal LLM application development, HTML/CSS, Git. "
+    "Methods: human-AI collaboration research, user studies, mixed-methods evaluation, digital humanities data analysis. "
+    "Languages: Chinese (native), English (fluent)."
+)
+
+
+def text(value):
+    return escape(value, quote=False)
+
+
+def author_text(value):
+    escaped = text(value)
+    return escaped.replace("Yangming Zhang", "<b>Yangming Zhang</b>")
+
+
+def linked_label(label, url):
+    return f'<link href="{escape(url, quote=True)}" color="#111111"><u>{text(label)}</u></link>'
+
+
 def add_section(story, title, styles):
-    story.append(Spacer(1, 5 * mm))
-    story.append(Paragraph(title, styles["Section"]))
-    story.append(Spacer(1, 1.5 * mm))
+    story.append(Spacer(1, 3.4 * mm))
+    story.append(Paragraph(text(title).upper(), styles["Section"]))
+    story.append(Spacer(1, 1.1 * mm))
 
 
-def bullet(text, styles):
-    return Paragraph(f"- {text}", styles["Bullet"])
+def entry(title, meta, period, description, styles, link=None):
+    heading = f"<b>{text(title)}</b>"
+    if link:
+        heading += f" &nbsp; {linked_label('link', link)}"
+    content = heading + f"<br/><font color='#444444'>{text(meta)}</font>"
+    if description:
+        content += f"<br/>{text(description)}"
+    left = Paragraph(content, styles["Entry"])
+    right = Paragraph(text(period), styles["Date"])
+    table = Table([[left, right]], colWidths=[152 * mm, 25 * mm], hAlign="LEFT")
+    table.setStyle(
+        TableStyle(
+            [
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                ("TOPPADDING", (0, 0), (-1, -1), 0),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 1.2 * mm),
+            ]
+        )
+    )
+    return table
 
 
-def highlight_author(text):
-    return text.replace("Yangming Zhang", "<b>Yangming Zhang</b>")
+def footer(canvas, doc):
+    canvas.saveState()
+    canvas.setFont("TimesNewRoman", 7.5)
+    canvas.setFillColor(colors.HexColor("#666666"))
+    canvas.drawCentredString(A4[0] / 2, 8 * mm, f"Yangming Zhang  |  CV  |  {doc.page}")
+    canvas.restoreState()
 
 
 def build_pdf():
@@ -144,8 +235,8 @@ def build_pdf():
         pagesize=A4,
         rightMargin=15 * mm,
         leftMargin=15 * mm,
-        topMargin=14 * mm,
-        bottomMargin=14 * mm,
+        topMargin=13 * mm,
+        bottomMargin=13 * mm,
         title="Yangming Zhang CV",
         author="Yangming Zhang",
     )
@@ -153,132 +244,85 @@ def build_pdf():
     base = getSampleStyleSheet()
     styles = {
         "Name": ParagraphStyle(
-            "Name",
-            parent=base["Title"],
-            fontName="Helvetica-Bold",
-            fontSize=22,
-            leading=25,
-            textColor=colors.HexColor("#0e4c47"),
-            spaceAfter=2,
+            "Name", parent=base["Title"], fontName="TimesNewRoman-Bold", fontSize=22,
+            leading=24, alignment=1, textColor=colors.black, spaceAfter=1.5 * mm,
         ),
-        "Subtitle": ParagraphStyle(
-            "Subtitle",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=9.5,
-            leading=12,
-            textColor=colors.HexColor("#626d75"),
+        "Contact": ParagraphStyle(
+            "Contact", parent=base["Normal"], fontName="TimesNewRoman", fontSize=8.3,
+            leading=10, alignment=1, textColor=colors.HexColor("#222222"), spaceAfter=1.5 * mm,
         ),
-        "Body": ParagraphStyle(
-            "Body",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=9.2,
-            leading=12.1,
-            textColor=colors.HexColor("#22272b"),
+        "Profile": ParagraphStyle(
+            "Profile", parent=base["Normal"], fontName="TimesNewRoman", fontSize=9.1,
+            leading=11.2, textColor=colors.black, spaceAfter=0,
         ),
         "Section": ParagraphStyle(
-            "Section",
-            parent=base["Heading2"],
-            fontName="Helvetica-Bold",
-            fontSize=12.5,
-            leading=15,
-            textColor=colors.HexColor("#14665f"),
-            borderWidth=0,
-            spaceAfter=2,
+            "Section", parent=base["Heading2"], fontName="TimesNewRoman-Bold", fontSize=10.4,
+            leading=12, textColor=colors.black, borderWidth=0, borderPadding=0,
+            spaceAfter=0, keepWithNext=True,
         ),
-        "Bullet": ParagraphStyle(
-            "Bullet",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=8.9,
-            leading=11.5,
-            leftIndent=0,
-            textColor=colors.HexColor("#22272b"),
-            spaceAfter=3,
+        "Entry": ParagraphStyle(
+            "Entry", parent=base["Normal"], fontName="TimesNewRoman", fontSize=8.25,
+            leading=9.85, textColor=colors.black, spaceAfter=0,
         ),
-        "Small": ParagraphStyle(
-            "Small",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=8.4,
-            leading=10.5,
-            textColor=colors.HexColor("#626d75"),
+        "Date": ParagraphStyle(
+            "Date", parent=base["Normal"], fontName="TimesNewRoman", fontSize=8.1,
+            leading=9.7, alignment=2, textColor=colors.HexColor("#555555"),
+        ),
+        "Publication": ParagraphStyle(
+            "Publication", parent=base["Normal"], fontName="TimesNewRoman", fontSize=8.25,
+            leading=9.9, textColor=colors.black, leftIndent=4.5 * mm, firstLineIndent=-4.5 * mm,
+            spaceAfter=1.6 * mm,
+        ),
+        "Body": ParagraphStyle(
+            "Body", parent=base["Normal"], fontName="TimesNewRoman", fontSize=8.5,
+            leading=10.2, textColor=colors.black,
         ),
     }
 
     story = [
         Paragraph("Yangming Zhang", styles["Name"]),
         Paragraph(
-            "Ph.D. Student, School of Information Management, Wuhan University",
-            styles["Subtitle"],
+            "Wuhan University | ICLCH | "
+            + linked_label("Google Scholar", "https://scholar.google.com/citations?user=UUmf2HEAAAAJ")
+            + " | "
+            + linked_label("GitHub", "https://github.com/JAdpp")
+            + " | "
+            + linked_label("Homepage", "https://jadpp.github.io/"),
+            styles["Contact"],
         ),
-        Paragraph(
-            "Cultural Heritage Intelligent Computing Lab / Wuhan, China",
-            styles["Subtitle"],
-        ),
-        Paragraph(
-            "Google Scholar: scholar.google.com/citations?user=UUmf2HEAAAAJ / GitHub: github.com/JAdpp",
-            styles["Subtitle"],
-        ),
-        Spacer(1, 4 * mm),
-        Paragraph(PROFILE, styles["Body"]),
+        Paragraph(PROFILE, styles["Profile"]),
     ]
 
     add_section(story, "Education", styles)
-    edu_rows = []
     for school, degree, period, note in EDUCATION:
-        edu_rows.append(
-            [
-                Paragraph(f"<b>{school}</b><br/>{degree}<br/><font color='#626d75'>{note}</font>", styles["Body"]),
-                Paragraph(period, styles["Small"]),
-            ]
-        )
-    table = Table(edu_rows, colWidths=[135 * mm, 30 * mm], hAlign="LEFT")
-    table.setStyle(
-        TableStyle(
-            [
-                ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 0),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
-            ]
-        )
-    )
-    story.append(table)
+        story.append(entry(school, degree + ". " + note, period, "", styles))
 
-    add_section(story, "Preprints", styles)
-    for item in PREPRINTS:
-        story.append(bullet(highlight_author(item), styles))
+    add_section(story, "Research Experience", styles)
+    for title, meta, period, description in RESEARCH_EXPERIENCE:
+        story.append(entry(title, meta, period, description, styles))
 
-    add_section(story, "Selected Publications", styles)
-    for item in PUBLICATIONS:
-        story.append(bullet(highlight_author(item), styles))
+    add_section(story, "Skills", styles)
+    story.append(Paragraph(text(SKILLS), styles["Body"]))
 
     story.append(PageBreak())
-    add_section(story, "Selected Projects", styles)
-    for title, period, summary in PROJECTS:
-        story.append(Paragraph(f"<b>{title}</b> ({period})", styles["Body"]))
-        story.append(Paragraph(summary, styles["Bullet"]))
 
-    add_section(story, "Technical and Research Skills", styles)
-    for item in SKILLS:
-        story.append(bullet(item, styles))
+    add_section(story, "Publications", styles)
+    for item in PUBLICATIONS:
+        story.append(Paragraph(f"- {author_text(item)}", styles["Publication"]))
+
+    add_section(story, "Selected Projects", styles)
+    for title, period, description, link in PROJECTS:
+        story.append(entry(title, "Independent / collaborative project", period, description, styles, link=link))
+
+    add_section(story, "Additional Experience", styles)
+    for title, meta, period, description in ADDITIONAL_EXPERIENCE:
+        story.append(entry(title, meta, period, description, styles))
 
     add_section(story, "Honors and Awards", styles)
     for item in HONORS:
-        story.append(bullet(item, styles))
+        story.append(Paragraph(f"- {text(item)}", styles["Publication"]))
 
-    add_section(story, "Additional Experience", styles)
-    additional = [
-        "National Science Library, Chinese Academy of Sciences, Science Exhibition Curation and Implementation Intern, 2024.",
-        "Digital Humanities Institute, Renmin University of China, Student Researcher, 2023-2024.",
-        "Tsinghua University Library, Multimedia Resources Services Librarian, 2021-2022.",
-    ]
-    for item in additional:
-        story.append(bullet(item, styles))
-
-    doc.build(story)
+    doc.build(story, onFirstPage=footer, onLaterPages=footer)
 
 
 if __name__ == "__main__":
