@@ -3,7 +3,9 @@
     <article class="project-card">
       {% if project.image %}
         {% assign project_alt = project.image_alt | default: project.title %}
-        <img class="project-card__cover{% if project.image_fit == 'contain' %} project-card__cover--contain{% endif %}" src="{{ project.image | relative_url }}" alt="{{ project_alt | escape }}" loading="lazy">
+        <button class="project-card__cover-trigger media-zoom-trigger" type="button" data-lightbox-trigger data-lightbox-src="{{ project.image | relative_url }}" data-lightbox-alt="{{ project_alt | escape }}" data-lightbox-caption="{{ project.title | escape }}" aria-label="Enlarge {{ project.title | escape }}">
+          <img class="project-card__cover{% if project.image_fit == 'contain' %} project-card__cover--contain{% endif %}" src="{{ project.image | relative_url }}" alt="{{ project_alt | escape }}" loading="lazy">
+        </button>
       {% endif %}
       <div class="project-card__eyebrow">{{ project.period }} / {{ project.role }}</div>
       <h3>{{ project.title }}</h3>
