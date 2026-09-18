@@ -3,7 +3,7 @@
     <article class="pub-item{% unless pub.image %} pub-item--text{% endunless %}">
       {% if pub.image %}
         {% assign pub_alt = pub.image_alt | default: pub.title %}
-        <button class="pub-item__cover media-zoom-trigger{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% endif %}" type="button" data-lightbox-trigger data-lightbox-src="{{ pub.image | relative_url }}" data-lightbox-alt="{{ pub_alt | escape }}" data-lightbox-caption="{{ pub.title | escape }}" aria-label="Enlarge {{ pub.title | escape }}">
+        <button class="pub-item__cover media-zoom-trigger{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% elsif pub.image_fit == 'cover' %} pub-item__cover--cover{% endif %}" type="button" data-lightbox-trigger data-lightbox-src="{{ pub.image | relative_url }}" data-lightbox-alt="{{ pub_alt | escape }}" data-lightbox-caption="{{ pub.title | escape }}" aria-label="Enlarge {{ pub.title | escape }}">
           <img src="{{ pub.image | relative_url }}" alt="{{ pub_alt | escape }}" loading="lazy">
         </button>
       {% endif %}
