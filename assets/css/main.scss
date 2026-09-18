@@ -503,7 +503,8 @@ h3 {
 .pub-item__cover img {
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--image-bg);
   transition: transform 220ms ease;
 }
 
@@ -513,6 +514,11 @@ h3 {
 
 .pub-item__cover--contain img {
   object-fit: contain;
+}
+
+.pub-item__cover--cover img,
+.project-card__cover--cover {
+  object-fit: cover;
 }
 
 .pub-item__year {
@@ -571,7 +577,7 @@ h3 {
 .project-card__cover {
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 0.8rem;
   border: 1px solid var(--line);
   border-radius: 5px;
