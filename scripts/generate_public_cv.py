@@ -7,7 +7,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from reportlab.platypus import HRFlowable, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -199,7 +199,8 @@ def linked_label(label, url):
 def add_section(story, title, styles):
     story.append(Spacer(1, 3.4 * mm))
     story.append(Paragraph(text(title).upper(), styles["Section"]))
-    story.append(Spacer(1, 1.1 * mm))
+    story.append(Spacer(1, 0.7 * mm))
+    story.append(HRFlowable(width="100%", thickness=0.45, color=colors.HexColor("#B8B8B8"), spaceBefore=0, spaceAfter=1.3 * mm))
 
 
 def entry(title, meta, period, description, styles, link=None):
