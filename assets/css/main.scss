@@ -684,6 +684,16 @@ h3 {
   color: var(--secondary-ink);
 }
 
+.cv-entry__projects {
+  margin: 0.35rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--secondary-ink);
+}
+
+.cv-entry__projects li + li {
+  margin-top: 0.2rem;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: var(--surface-soft);

@@ -9,6 +9,13 @@
     <div class="cv-entry__content">
       <h3>{{ entry.title | escape }}</h3>
       <p>{{ entry.description | escape }}</p>
+      {% if entry.projects %}
+      <ul class="cv-entry__projects">
+        {% for project in entry.projects %}
+        <li><strong>{{ project.title | escape }}</strong> ({{ project.year | escape }}): {{ project.description | escape }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </li>
   {% endfor %}

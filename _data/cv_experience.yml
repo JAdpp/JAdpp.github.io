@@ -14,9 +14,16 @@ research:
   - title: Department of Information Management, Peking University
     logo: pku-seal.png
     description: Visiting student, Sep 2025-Jan 2026.
-  - title: MindTrace, Future Laboratory, Tsinghua University
-    logo: tsinghua-seal.png
-    description: Research intern, 2025. Thought visualization and multi-agent educational systems.
+  - title: Future Laboratory, Tsinghua University
+    logo: tsinghua-future-lab.png
+    description: Research intern, 2024 and 2025.
+    projects:
+      - title: MindTrace
+        year: 2025
+        description: Thought visualization and multi-agent educational systems.
+      - title: BrickSmart
+        year: 2024
+        description: Multimodal AI and family block-play learning.
   - title: V&A Chinese Export Watercolours Digitization and Computational Analysis
     logo: vam-wordmark.svg
     logo_style: wordmark
@@ -25,9 +32,6 @@ research:
     logo: ucl-2026.svg
     logo_style: wordmark
     description: M.Sc. dissertation, UCL, 2023. GPT-3.5 and DALL-E 2 prototype for virtual-exhibition curation.
-  - title: BrickSmart, Future Laboratory, Tsinghua University
-    logo: tsinghua-seal.png
-    description: Research intern, 2024. Multimodal AI and family block-play learning.
   - title: Digital Humanities Institute, Renmin University of China
     logo: ruc-seal.png
     description: Student researcher, 2023-2024.
