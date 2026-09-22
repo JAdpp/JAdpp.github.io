@@ -685,6 +685,7 @@ h3 {
 
 .image-lightbox__figure {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.65rem;
   margin: 0;
 }
@@ -692,9 +693,11 @@ h3 {
 .image-lightbox__figure img {
   display: block;
   width: auto;
-  max-width: calc(92vw - 2rem);
+  height: auto;
+  max-width: 100%;
   max-height: 78vh;
   object-fit: contain;
+  justify-self: center;
 }
 
 .image-lightbox__figure figcaption {
@@ -746,14 +749,10 @@ h3 {
     box-shadow: var(--hover-shadow);
   }
 
-  .pub-item__cover:hover img {
-    transform: scale(1.01);
-  }
-
   .project-card:hover .project-card__cover {
     border-color: var(--hover-border);
     box-shadow: var(--hover-shadow);
-    transform: translateY(-2px) scale(1.005);
+    transform: translateY(-2px);
   }
 }
 
@@ -819,7 +818,6 @@ h3 {
   }
 
   .image-lightbox__figure img {
-    max-width: calc(96vw - 1.3rem);
     max-height: 76vh;
   }
 

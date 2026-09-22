@@ -38,8 +38,8 @@
   role: "First author"
   type: "Poster"
   featured: true
-  image: "/assets/img/covers/verse-listens-back.png"
-  image_alt: "Three-stage interaction workflow for When Verse Listens Back"
+  image: "/assets/img/covers/verse-listens-back-figure-1.png"
+  image_alt: "Complete Figure 1 from When Verse Listens Back, including three-stage interface mockups and the seven-step workflow"
   summary: "We study how classical Chinese poetry can serve as a culturally grounded medium for multimodal AI-guided emotional support."
   links:
     - label: "DOI"
@@ -54,8 +54,9 @@
   role: "Second author"
   type: "Journal article"
   featured: true
-  image: "/assets/img/covers/export-watercolours.png"
-  image_alt: "Computational topic map of the V&A Chinese export watercolour collection"
+  image: "/assets/img/covers/export-watercolours-figure-10-thumb.png"
+  image_full: "/assets/img/covers/export-watercolours-figure-10.png"
+  image_alt: "Complete radial tree of Chinese Iconography Thesaurus terms used to annotate the V&A Chinese export watercolour collection"
   summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
   links:
     - label: "DOI"
@@ -100,8 +101,8 @@
   role: "Co-author"
   type: "Full paper"
   featured: true
-  image: "/assets/img/covers/bricksmart.png"
-  image_alt: "BrickSmart three-step family block-play process"
+  image: "/assets/img/covers/bricksmart-figure-1.png"
+  image_alt: "Complete BrickSmart Figure 1 with three step headings, parent-child dialogue, and system workflow arrows"
   summary: "We designed a generative AI-supported family block-play system to scaffold children's spatial language learning."
   links:
     - label: "DOI"

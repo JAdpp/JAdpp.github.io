@@ -68,8 +68,8 @@
   role: "Research intern, Future Laboratory, Tsinghua University"
   area: "Generative AI for parent-child learning"
   featured: false
-  image: "/assets/img/covers/bricksmart.png"
-  image_alt: "BrickSmart three-step family block-play process"
+  image: "/assets/img/covers/bricksmart-figure-1.png"
+  image_alt: "Complete BrickSmart Figure 1 with three step headings, parent-child dialogue, and system workflow arrows"
   summary: "A generative AI-supported block-play system for children's spatial language development, including prompt strategy, back-end prototyping, deployment, and user-study support."
   links:
     - label: "Paper"
