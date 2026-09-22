@@ -2,7 +2,7 @@
   {% for entry in include.entries %}
   <li class="cv-entry">
     {% if entry.logo %}
-    <div class="cv-entry__logo">
+    <div class="cv-entry__logo{% if entry.logo_style == 'wordmark' %} cv-entry__logo--wordmark{% endif %}">
       <img src="{{ '/assets/img/institutions/' | append: entry.logo | relative_url }}" alt="" width="64" height="64" loading="lazy" decoding="async">
     </div>
     {% endif %}
