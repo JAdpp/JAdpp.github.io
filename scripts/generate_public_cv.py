@@ -200,7 +200,7 @@ def add_section(story, title, styles):
     story.append(Spacer(1, 3.4 * mm))
     story.append(Paragraph(text(title).upper(), styles["Section"]))
     story.append(Spacer(1, 0.7 * mm))
-    story.append(HRFlowable(width="100%", thickness=0.45, color=colors.HexColor("#B8B8B8"), spaceBefore=0, spaceAfter=1.3 * mm))
+    story.append(HRFlowable(width="100%", thickness=0.45, color=colors.black, spaceBefore=0, spaceAfter=1.3 * mm))
 
 
 def entry(title, meta, period, description, styles, link=None):

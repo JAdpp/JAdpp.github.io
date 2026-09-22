@@ -18,19 +18,11 @@ Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental
 
 ## Education
 
-- **Wuhan University** — Ph.D. student, School of Information Management / ICLCH, 2024-Present.
-- **University College London (UCL)** — M.Sc. Digital Humanities, Department of Information Studies, 2022-2023. Distinction; Top 1; Dissertation Showcase; Dean's List.
-- **Wuhan University** — B.Sc., School of Information Management, 2015-2019.
+{% include cv-entry-list.html entries=site.data.cv_experience.education %}
 
 ## Research Experience
 
-- **Department of Information Management, Peking University** — Visiting student, Sep 2025-Jan 2026.
-- **MindTrace, Future Laboratory, Tsinghua University** — Research intern, 2025. Thought visualization and multi-agent educational systems.
-- **V&A Chinese Export Watercolours Digitization and Computational Analysis** — Research assistant / project researcher, 2022-2023. Digitization and computational analysis of the Victoria and Albert Museum collection.
-- **Generative AI for Digital Content Curation in Cultural Heritage** — M.Sc. dissertation, UCL, 2023. GPT-3.5 and DALL-E 2 prototype for virtual-exhibition curation.
-- **BrickSmart, Future Laboratory, Tsinghua University** — Research intern, 2024. Multimodal AI and family block-play learning.
-- **Digital Humanities Institute, Renmin University of China** — Student researcher, 2023-2024.
-- **National Science Library, Chinese Academy of Sciences** — Science exhibition curation and implementation intern, 2024.
+{% include cv-entry-list.html entries=site.data.cv_experience.research %}
 
 ## Publications
 
@@ -51,10 +43,7 @@ Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental
 
 ## Additional Experience
 
-- **Tsinghua University Library** — Multimedia Resources Services Librarian, 2021-2022.
-- **Research on Chinese Academic Integrity Policy Data** — Research intern, 2017.
-- **Application of Virtual Reality in Chinese Public Libraries** — Team leader, 2016-2017.
-- **Wuhan Library, Chinese Academy of Sciences** — Intern leader, 2018.
+{% include cv-entry-list.html entries=site.data.cv_experience.additional %}
 
 ## Honors and Awards
 

@@ -1,0 +1,15 @@
+<ul class="cv-entry-list" role="list">
+  {% for entry in include.entries %}
+  <li class="cv-entry">
+    {% if entry.logo %}
+    <div class="cv-entry__logo">
+      <img src="{{ '/assets/img/institutions/' | append: entry.logo | relative_url }}" alt="" width="64" height="64" loading="lazy" decoding="async">
+    </div>
+    {% endif %}
+    <div class="cv-entry__content">
+      <h3>{{ entry.title | escape }}</h3>
+      <p>{{ entry.description | escape }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

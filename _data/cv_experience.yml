@@ -1,0 +1,45 @@
+education:
+  - title: Wuhan University
+    logo: whu.png
+    description: Ph.D. student, School of Information Management / ICLCH, 2024-Present.
+  - title: University College London (UCL)
+    logo: ucl.png
+    description: M.Sc. Digital Humanities, Department of Information Studies, 2022-2023. Distinction; Top 1; Dissertation Showcase; Dean's List.
+  - title: Wuhan University
+    logo: whu.png
+    description: B.Sc., School of Information Management, 2015-2019.
+
+research:
+  - title: Department of Information Management, Peking University
+    logo: pku.png
+    description: Visiting student, Sep 2025-Jan 2026.
+  - title: MindTrace, Future Laboratory, Tsinghua University
+    logo: tsinghua.jpg
+    description: Research intern, 2025. Thought visualization and multi-agent educational systems.
+  - title: V&A Chinese Export Watercolours Digitization and Computational Analysis
+    logo: vam.png
+    description: Research assistant / project researcher, 2022-2023. Digitization and computational analysis of the Victoria and Albert Museum collection.
+  - title: Generative AI for Digital Content Curation in Cultural Heritage
+    logo: ucl.png
+    description: M.Sc. dissertation, UCL, 2023. GPT-3.5 and DALL-E 2 prototype for virtual-exhibition curation.
+  - title: BrickSmart, Future Laboratory, Tsinghua University
+    logo: tsinghua.jpg
+    description: Research intern, 2024. Multimodal AI and family block-play learning.
+  - title: Digital Humanities Institute, Renmin University of China
+    logo: ruc.png
+    description: Student researcher, 2023-2024.
+  - title: National Science Library, Chinese Academy of Sciences
+    logo: cas.png
+    description: Science exhibition curation and implementation intern, 2024.
+
+additional:
+  - title: Tsinghua University Library
+    logo: tsinghua.jpg
+    description: Multimedia Resources Services Librarian, 2021-2022.
+  - title: Research on Chinese Academic Integrity Policy Data
+    description: Research intern, 2017.
+  - title: Application of Virtual Reality in Chinese Public Libraries
+    description: Team leader, 2016-2017.
+  - title: Wuhan Library, Chinese Academy of Sciences
+    logo: cas.png
+    description: Intern leader, 2018.
