@@ -330,8 +330,14 @@ html[data-theme="dark"] .theme-toggle__sun {
 }
 
 .hero__portrait {
+  position: relative;
   width: 100%;
+  aspect-ratio: 4 / 5;
   margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
 }
 
 .hero__links {
@@ -339,12 +345,13 @@ html[data-theme="dark"] .theme-toggle__sun {
 }
 
 .hero__portrait img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  box-shadow: var(--shadow);
+  /* Frame a 700 x 875 region at (230, 400) without altering the original photograph. */
+  position: absolute;
+  width: calc(100% * 960 / 700);
+  max-width: none;
+  height: auto;
+  left: calc(-100% * 230 / 700);
+  top: calc(-100% * 400 / 875);
 }
 
 .motion-ready .hero h1,

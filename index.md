@@ -18,7 +18,7 @@ title: Home
   </div>
   <aside class="hero__aside">
     <figure class="hero__portrait">
-      <img src="{{ '/assets/img/yangming-zhang.jpg' | relative_url }}" alt="Portrait of Yangming Zhang">
+      <img src="{{ '/assets/img/yangming-zhang-candid-640.webp' | relative_url }}" srcset="{{ '/assets/img/yangming-zhang-candid-640.webp' | relative_url }} 640w, {{ '/assets/img/yangming-zhang-candid-960.webp' | relative_url }} 960w" sizes="(max-width: 780px) 261px, 316px" alt="Portrait of Yangming Zhang" width="960" height="1282" fetchpriority="high" decoding="async">
     </figure>
     <div class="text-links hero__links" aria-label="Profile links">
       <a href="{{ site.links.scholar }}">Google Scholar</a>
