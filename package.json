@@ -1,0 +1,11 @@
+{
+  "name": "yangming-homepage-assets",
+  "private": true,
+  "scripts": {
+    "build:thumbnails": "node scripts/generate_thumbnails.cjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4",
+    "yaml": "^2.9.1"
+  }
+}

@@ -502,6 +502,7 @@ h3 {
 
 .pub-item__cover img {
   width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   object-fit: contain;
   background: var(--image-bg);
@@ -576,6 +577,7 @@ h3 {
 
 .project-card__cover {
   width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   object-fit: contain;
   margin-bottom: 0.8rem;

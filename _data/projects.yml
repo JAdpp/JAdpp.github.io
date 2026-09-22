@@ -42,13 +42,13 @@
     - label: "GitHub"
       url: "https://github.com/JAdpp/trip-canvas"
 
-- title: "Mengdie Ji (梦蝶记)"
+- title: "Butterfly Dream (梦蝶记)"
   period: "2026-Present"
   role: "Creator and developer"
   area: "Culturally grounded narrative agents and game intelligence"
   featured: true
   image: "/assets/img/covers/mengdie-ji.png"
-  image_alt: "Homepage of Mengdie Ji with classical Chinese narrative imagery and its story guide"
+  image_alt: "Homepage of Butterfly Dream with classical Chinese narrative imagery and its story guide"
   summary: "An adult-oriented interactive narrative experience that pairs a user-confirmed recent experience with a traceable story from classical Chinese mythology. Source narratives remain distinct from contemporary adaptations, and users can revise or reject the proposed connection."
   links:
     - label: "GitHub"
@@ -75,13 +75,13 @@
     - label: "Paper"
       url: "https://doi.org/10.1145/3706598.3714212"
 
-- title: "Woyou (卧游)"
+- title: "Mind Travel (卧游)"
   period: "2026-Present"
   role: "Project lead"
   area: "Evidence-grounded agents, AI curation, digital cultural heritage"
   featured: false
   image: "/assets/img/covers/woyou.png"
-  image_alt: "Homepage of Woyou with an AI curator and an open museum collection wall"
+  image_alt: "Homepage of Mind Travel with an AI curator and an open museum collection wall"
   summary: "An evidence-grounded AI curator that turns visitor questions into source-traceable 3D and 2D virtual exhibitions drawn from openly licensed museum collections. Its controlled agent workflow separates institutional records, curatorial interpretation, and uncertainty."
   links:
     - label: "GitHub"

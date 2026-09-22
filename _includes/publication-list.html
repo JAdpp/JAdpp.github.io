@@ -5,7 +5,7 @@
         {% assign pub_alt = pub.image_alt | default: pub.title %}
         {% assign pub_full_image = pub.image_full | default: pub.image %}
         <button class="pub-item__cover media-zoom-trigger{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% elsif pub.image_fit == 'cover' %} pub-item__cover--cover{% endif %}" type="button" data-lightbox-trigger data-lightbox-src="{{ pub_full_image | relative_url }}" data-lightbox-alt="{{ pub_alt | escape }}" data-lightbox-caption="{{ pub.title | escape }}" aria-label="Enlarge {{ pub.title | escape }}">
-          <img src="{{ pub.image | relative_url }}" alt="{{ pub_alt | escape }}" loading="lazy">
+          {% include thumbnail.html image=pub.image alt=pub_alt compact=true sizes="(max-width: 480px) calc(100vw - 28px), (max-width: 559px) calc(100vw - 40px), (max-width: 780px) 520px, 150px" %}
         </button>
       {% endif %}
       <div class="pub-item__body">

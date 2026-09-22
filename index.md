@@ -42,7 +42,7 @@ title: Home
     <h2>Latest News</h2>
     <div class="news-list">
       {% for item in site.data.news limit:4 %}
-        <p><span>{{ item.date }}</span> <a href="{{ item.link }}">{{ item.text }}</a></p>
+        <p><span>{{ item.date }}</span> {% if item.link %}<a href="{{ item.link }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</p>
       {% endfor %}
     </div>
   </div>

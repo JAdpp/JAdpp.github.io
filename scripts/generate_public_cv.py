@@ -125,13 +125,13 @@ PROJECTS = [
         "https://github.com/JAdpp/trip-canvas",
     ),
     (
-        "Mengdie Ji",
+        "Butterfly Dream",
         "2026-Present",
         "A culturally grounded interactive narrative project exploring dream, memory, and classical literary motifs through agent-assisted storytelling.",
         "https://github.com/JAdpp/myth-ritual-demo",
     ),
     (
-        "Woyou",
+        "Mind Travel",
         "2026-Present",
         "An AI-assisted cultural-heritage curation project for organizing, interpreting, and presenting digital materials as exploratory exhibits.",
         "https://github.com/JAdpp/inquiry-curator",

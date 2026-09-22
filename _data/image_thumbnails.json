@@ -1,0 +1,529 @@
+{
+  "/assets/img/covers/artificial-wisdom.png": {
+    "source": "/assets/img/covers/artificial-wisdom.png",
+    "width": 2517,
+    "height": 1230,
+    "preview": {
+      "path": "/assets/img/thumbnails/artificial-wisdom-172a110b6c-640.webp",
+      "width": 640,
+      "height": 313,
+      "bytes": 18682
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/artificial-wisdom-172a110b6c-320.webp",
+        "width": 320,
+        "height": 156,
+        "bytes": 6568
+      },
+      {
+        "path": "/assets/img/thumbnails/artificial-wisdom-172a110b6c-640.webp",
+        "width": 640,
+        "height": 313,
+        "bytes": 18682
+      },
+      {
+        "path": "/assets/img/thumbnails/artificial-wisdom-172a110b6c-1080.webp",
+        "width": 1080,
+        "height": 528,
+        "bytes": 37800
+      }
+    ]
+  },
+  "/assets/img/covers/pocketmuseum.png": {
+    "source": "/assets/img/covers/pocketmuseum.png",
+    "width": 1200,
+    "height": 675,
+    "preview": {
+      "path": "/assets/img/thumbnails/pocketmuseum-63c7dbf458-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 21910
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/pocketmuseum-63c7dbf458-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7288
+      },
+      {
+        "path": "/assets/img/thumbnails/pocketmuseum-63c7dbf458-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 21910
+      },
+      {
+        "path": "/assets/img/thumbnails/pocketmuseum-63c7dbf458-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 56116
+      }
+    ]
+  },
+  "/assets/img/covers/co-teaching-ai.png": {
+    "source": "/assets/img/covers/co-teaching-ai.png",
+    "width": 3710,
+    "height": 2432,
+    "preview": {
+      "path": "/assets/img/thumbnails/co-teaching-ai-cc7c42db90-640.webp",
+      "width": 640,
+      "height": 420,
+      "bytes": 34698
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/co-teaching-ai-cc7c42db90-320.webp",
+        "width": 320,
+        "height": 210,
+        "bytes": 10910
+      },
+      {
+        "path": "/assets/img/thumbnails/co-teaching-ai-cc7c42db90-640.webp",
+        "width": 640,
+        "height": 420,
+        "bytes": 34698
+      },
+      {
+        "path": "/assets/img/thumbnails/co-teaching-ai-cc7c42db90-1080.webp",
+        "width": 1080,
+        "height": 708,
+        "bytes": 79984
+      }
+    ]
+  },
+  "/assets/img/covers/verse-listens-back-figure-1.png": {
+    "source": "/assets/img/covers/verse-listens-back-figure-1.png",
+    "width": 2024,
+    "height": 884,
+    "preview": {
+      "path": "/assets/img/thumbnails/verse-listens-back-figure-1-6ad2b5b7a9-640.webp",
+      "width": 640,
+      "height": 280,
+      "bytes": 32102
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/verse-listens-back-figure-1-6ad2b5b7a9-320.webp",
+        "width": 320,
+        "height": 140,
+        "bytes": 9844
+      },
+      {
+        "path": "/assets/img/thumbnails/verse-listens-back-figure-1-6ad2b5b7a9-640.webp",
+        "width": 640,
+        "height": 280,
+        "bytes": 32102
+      },
+      {
+        "path": "/assets/img/thumbnails/verse-listens-back-figure-1-6ad2b5b7a9-1080.webp",
+        "width": 1080,
+        "height": 472,
+        "bytes": 73160
+      }
+    ]
+  },
+  "/assets/img/covers/export-watercolours-figure-10-thumb.png": {
+    "source": "/assets/img/covers/export-watercolours-figure-10.png",
+    "width": 6279,
+    "height": 6354,
+    "preview": {
+      "path": "/assets/img/thumbnails/export-watercolours-figure-10-ee08fd8e99-640.webp",
+      "width": 640,
+      "height": 648,
+      "bytes": 51322
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/export-watercolours-figure-10-ee08fd8e99-320.webp",
+        "width": 320,
+        "height": 324,
+        "bytes": 13628
+      },
+      {
+        "path": "/assets/img/thumbnails/export-watercolours-figure-10-ee08fd8e99-640.webp",
+        "width": 640,
+        "height": 648,
+        "bytes": 51322
+      },
+      {
+        "path": "/assets/img/thumbnails/export-watercolours-figure-10-ee08fd8e99-1080.webp",
+        "width": 1080,
+        "height": 1093,
+        "bytes": 132844
+      }
+    ]
+  },
+  "/assets/img/covers/poemithy.png": {
+    "source": "/assets/img/covers/poemithy.png",
+    "width": 2916,
+    "height": 943,
+    "preview": {
+      "path": "/assets/img/thumbnails/poemithy-694f28ab7c-640.webp",
+      "width": 640,
+      "height": 207,
+      "bytes": 21450
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/poemithy-694f28ab7c-320.webp",
+        "width": 320,
+        "height": 103,
+        "bytes": 6388
+      },
+      {
+        "path": "/assets/img/thumbnails/poemithy-694f28ab7c-640.webp",
+        "width": 640,
+        "height": 207,
+        "bytes": 21450
+      },
+      {
+        "path": "/assets/img/thumbnails/poemithy-694f28ab7c-1080.webp",
+        "width": 1080,
+        "height": 349,
+        "bytes": 49880
+      }
+    ]
+  },
+  "/assets/img/covers/poetic-comfort.png": {
+    "source": "/assets/img/covers/poetic-comfort.png",
+    "width": 1200,
+    "height": 675,
+    "preview": {
+      "path": "/assets/img/thumbnails/poetic-comfort-4e6427e5b2-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 21754
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/poetic-comfort-4e6427e5b2-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7258
+      },
+      {
+        "path": "/assets/img/thumbnails/poetic-comfort-4e6427e5b2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 21754
+      },
+      {
+        "path": "/assets/img/thumbnails/poetic-comfort-4e6427e5b2-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 48856
+      }
+    ]
+  },
+  "/assets/img/covers/bricksmart-figure-1.png": {
+    "source": "/assets/img/covers/bricksmart-figure-1.png",
+    "width": 1736,
+    "height": 708,
+    "preview": {
+      "path": "/assets/img/thumbnails/bricksmart-figure-1-ddaeae85f6-640.webp",
+      "width": 640,
+      "height": 261,
+      "bytes": 30858
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/bricksmart-figure-1-ddaeae85f6-320.webp",
+        "width": 320,
+        "height": 131,
+        "bytes": 10380
+      },
+      {
+        "path": "/assets/img/thumbnails/bricksmart-figure-1-ddaeae85f6-640.webp",
+        "width": 640,
+        "height": 261,
+        "bytes": 30858
+      },
+      {
+        "path": "/assets/img/thumbnails/bricksmart-figure-1-ddaeae85f6-1080.webp",
+        "width": 1080,
+        "height": 440,
+        "bytes": 62510
+      }
+    ]
+  },
+  "/assets/img/covers/sucho.png": {
+    "source": "/assets/img/covers/sucho.png",
+    "width": 1200,
+    "height": 675,
+    "preview": {
+      "path": "/assets/img/thumbnails/sucho-50fa189bea-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 43086
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/sucho-50fa189bea-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11524
+      },
+      {
+        "path": "/assets/img/thumbnails/sucho-50fa189bea-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 43086
+      },
+      {
+        "path": "/assets/img/thumbnails/sucho-50fa189bea-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 96468
+      }
+    ]
+  },
+  "/assets/img/covers/poemithy-project.png": {
+    "source": "/assets/img/covers/poemithy-project.png",
+    "width": 1200,
+    "height": 675,
+    "preview": {
+      "path": "/assets/img/thumbnails/poemithy-project-32135a1415-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 12082
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/poemithy-project-32135a1415-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 4706
+      },
+      {
+        "path": "/assets/img/thumbnails/poemithy-project-32135a1415-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 12082
+      },
+      {
+        "path": "/assets/img/thumbnails/poemithy-project-32135a1415-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 25170
+      }
+    ]
+  },
+  "/assets/img/covers/altair.png": {
+    "source": "/assets/img/covers/altair.png",
+    "width": 1232,
+    "height": 706,
+    "preview": {
+      "path": "/assets/img/thumbnails/altair-69e29177d8-640.webp",
+      "width": 640,
+      "height": 367,
+      "bytes": 48950
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/altair-69e29177d8-320.webp",
+        "width": 320,
+        "height": 183,
+        "bytes": 15398
+      },
+      {
+        "path": "/assets/img/thumbnails/altair-69e29177d8-640.webp",
+        "width": 640,
+        "height": 367,
+        "bytes": 48950
+      },
+      {
+        "path": "/assets/img/thumbnails/altair-69e29177d8-1080.webp",
+        "width": 1080,
+        "height": 619,
+        "bytes": 116498
+      }
+    ]
+  },
+  "/assets/img/covers/dsh-whale-galgame.jpg": {
+    "source": "/assets/img/covers/dsh-whale-galgame.jpg",
+    "width": 1422,
+    "height": 800,
+    "preview": {
+      "path": "/assets/img/thumbnails/dsh-whale-galgame-668d604399-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 32034
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/dsh-whale-galgame-668d604399-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10520
+      },
+      {
+        "path": "/assets/img/thumbnails/dsh-whale-galgame-668d604399-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32034
+      },
+      {
+        "path": "/assets/img/thumbnails/dsh-whale-galgame-668d604399-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 71768
+      }
+    ]
+  },
+  "/assets/img/covers/co-created-travel-journal.png": {
+    "source": "/assets/img/covers/co-created-travel-journal.png",
+    "width": 1600,
+    "height": 640,
+    "preview": {
+      "path": "/assets/img/thumbnails/co-created-travel-journal-039617f70d-640.webp",
+      "width": 640,
+      "height": 256,
+      "bytes": 55676
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/co-created-travel-journal-039617f70d-320.webp",
+        "width": 320,
+        "height": 128,
+        "bytes": 16726
+      },
+      {
+        "path": "/assets/img/thumbnails/co-created-travel-journal-039617f70d-640.webp",
+        "width": 640,
+        "height": 256,
+        "bytes": 55676
+      },
+      {
+        "path": "/assets/img/thumbnails/co-created-travel-journal-039617f70d-1080.webp",
+        "width": 1080,
+        "height": 432,
+        "bytes": 133416
+      }
+    ]
+  },
+  "/assets/img/covers/mengdie-ji.png": {
+    "source": "/assets/img/covers/mengdie-ji.png",
+    "width": 1440,
+    "height": 810,
+    "preview": {
+      "path": "/assets/img/thumbnails/mengdie-ji-b561355f19-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 23442
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/mengdie-ji-b561355f19-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8542
+      },
+      {
+        "path": "/assets/img/thumbnails/mengdie-ji-b561355f19-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 23442
+      },
+      {
+        "path": "/assets/img/thumbnails/mengdie-ji-b561355f19-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 48680
+      }
+    ]
+  },
+  "/assets/img/covers/mindtrace.png": {
+    "source": "/assets/img/covers/mindtrace.png",
+    "width": 1800,
+    "height": 921,
+    "preview": {
+      "path": "/assets/img/thumbnails/mindtrace-41ce4de0d7-640.webp",
+      "width": 640,
+      "height": 327,
+      "bytes": 21736
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/mindtrace-41ce4de0d7-320.webp",
+        "width": 320,
+        "height": 164,
+        "bytes": 6880
+      },
+      {
+        "path": "/assets/img/thumbnails/mindtrace-41ce4de0d7-640.webp",
+        "width": 640,
+        "height": 327,
+        "bytes": 21736
+      },
+      {
+        "path": "/assets/img/thumbnails/mindtrace-41ce4de0d7-1080.webp",
+        "width": 1080,
+        "height": 553,
+        "bytes": 44422
+      }
+    ]
+  },
+  "/assets/img/covers/woyou.png": {
+    "source": "/assets/img/covers/woyou.png",
+    "width": 1440,
+    "height": 810,
+    "preview": {
+      "path": "/assets/img/thumbnails/woyou-db019e69bd-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 16228
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/woyou-db019e69bd-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5774
+      },
+      {
+        "path": "/assets/img/thumbnails/woyou-db019e69bd-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 16228
+      },
+      {
+        "path": "/assets/img/thumbnails/woyou-db019e69bd-1080.webp",
+        "width": 1080,
+        "height": 608,
+        "bytes": 36652
+      }
+    ]
+  },
+  "/assets/img/covers/cew-project-logo.png": {
+    "source": "/assets/img/covers/cew-project-logo.png",
+    "width": 1100,
+    "height": 1086,
+    "preview": {
+      "path": "/assets/img/thumbnails/cew-project-logo-63a7b25a1b-640.webp",
+      "width": 640,
+      "height": 632,
+      "bytes": 43974
+    },
+    "variants": [
+      {
+        "path": "/assets/img/thumbnails/cew-project-logo-63a7b25a1b-320.webp",
+        "width": 320,
+        "height": 316,
+        "bytes": 12838
+      },
+      {
+        "path": "/assets/img/thumbnails/cew-project-logo-63a7b25a1b-640.webp",
+        "width": 640,
+        "height": 632,
+        "bytes": 43974
+      },
+      {
+        "path": "/assets/img/thumbnails/cew-project-logo-63a7b25a1b-1080.webp",
+        "width": 1080,
+        "height": 1066,
+        "bytes": 104326
+      }
+    ]
+  }
+}

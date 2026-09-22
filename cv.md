@@ -38,8 +38,8 @@ Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental
 - **Poemithy / Classical Chinese Poetry Therapy** — Multimodal LLM interaction system for culturally grounded emotional support. [GitHub](https://github.com/JAdpp)
 - **dsh-whale-galgame** — Open-source multi-model visual-novel plugin for DeepSeek Harness. [GitHub](https://github.com/JAdpp/dsh-whale-galgame)
 - **Co-Created Travel Journal (Trip Canvas)** — Agent skill for editable visual journals, object manifests, and mini-comics. [GitHub](https://github.com/JAdpp/trip-canvas)
-- **Mengdie Ji** — Culturally grounded interactive narrative project. [GitHub](https://github.com/JAdpp/myth-ritual-demo)
-- **Woyou** — AI-assisted digital cultural-heritage curation project. [GitHub](https://github.com/JAdpp/inquiry-curator)
+- **Butterfly Dream** — Culturally grounded interactive narrative project. [GitHub](https://github.com/JAdpp/myth-ritual-demo)
+- **Mind Travel** — AI-assisted digital cultural-heritage curation project. [GitHub](https://github.com/JAdpp/inquiry-curator)
 
 ## Additional Experience
 
