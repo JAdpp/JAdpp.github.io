@@ -334,34 +334,34 @@
       }
     ]
   },
-  "/assets/img/covers/library-of-many-worlds-bright-centered.webp": {
-    "source": "/assets/img/covers/library-of-many-worlds-bright-centered.webp",
+  "/assets/img/covers/library-of-many-worlds-bold-outline.png": {
+    "source": "/assets/img/covers/library-of-many-worlds-bold-outline.png",
     "width": 1440,
     "height": 900,
     "preview": {
-      "path": "/assets/img/thumbnails/library-of-many-worlds-bright-centered-b642978b2f-640.webp",
+      "path": "/assets/img/thumbnails/library-of-many-worlds-bold-outline-da60be8e25-640.webp",
       "width": 640,
       "height": 400,
-      "bytes": 31442
+      "bytes": 35434
     },
     "variants": [
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-bright-centered-b642978b2f-320.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-bold-outline-da60be8e25-320.webp",
         "width": 320,
         "height": 200,
-        "bytes": 12560
+        "bytes": 13496
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-bright-centered-b642978b2f-640.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-bold-outline-da60be8e25-640.webp",
         "width": 640,
         "height": 400,
-        "bytes": 31442
+        "bytes": 35434
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-bright-centered-b642978b2f-1080.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-bold-outline-da60be8e25-1080.webp",
         "width": 1080,
         "height": 675,
-        "bytes": 62430
+        "bytes": 70800
       }
     ]
   },
