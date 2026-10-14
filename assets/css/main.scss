@@ -604,6 +604,10 @@ h3 {
   background: transparent;
 }
 
+.project-card__cover--pixelated {
+  image-rendering: pixelated;
+}
+
 .project-card__cover-trigger .project-card__cover {
   margin-bottom: 0;
 }

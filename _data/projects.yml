@@ -7,7 +7,33 @@
   image_alt: "Poemithy landing page with a classical Chinese poetry title and poet guide"
   summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
 
+- title: "Where Did This Cat Come From? (哪来的猫)"
+  category: games
+  period: "2026"
+  role: "Creator and developer"
+  area: "Pixel-art roguelite / Godot prototype / Chinese-language UI"
+  image: "/assets/img/covers/where-did-this-cat-come-from.png"
+  image_rendering: pixelated
+  image_alt: "An orange stray cat stands on a bus roof above layered bridge traffic, with a city skyline behind it"
+  summary: "A side-scrolling stray-cat roguelite across connected streets, rooftops, and sewers. Meow, carry one item at a time, and rescue other animals while finding surreal second chances through a pet-prison escape and an underworld chase."
+  links:
+    - label: "Play prototype"
+      url: "https://before-home-stray-cat.whiterhino16.chatgpt.site"
+
+- title: "Library of Many Worlds (万象图书馆)"
+  category: games
+  period: "2026"
+  role: "Creator and developer"
+  area: "Low-poly library simulation / Godot prototype / Chinese-language UI"
+  image: "/assets/img/covers/library-of-many-worlds.png"
+  image_alt: "A low-poly public library with bookshelves, librarians assisting visitors, and patrons reading at desks in warm daylight"
+  summary: "Build and run a public library: plan its space, hire staff, balance book categories, and organize returns. Assess donations, host reading activities, respond to patron incidents, and pursue grants shaped by satisfaction, reputation, and complaints."
+  links:
+    - label: "Play prototype"
+      url: "https://library-worlds.whiterhino16.chatgpt.site"
+
 - title: "Altair"
+  category: games
   period: "2025-Present"
   role: "Personal long-term direction"
   area: "AI-native narrative worlds, creator tools, multi-agent storytelling"

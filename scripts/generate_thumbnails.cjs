@@ -13,7 +13,10 @@ async function main() {
   for (const name of ['publications', 'projects']) {
     const items = YAML.parse(await fs.readFile(path.join(root, '_data', `${name}.yml`), 'utf8'));
     for (const item of items) {
-      if (item.image) sources.set(item.image, item.image_full || item.image);
+      if (item.image) sources.set(item.image, {
+        source: item.image_full || item.image,
+        pixelated: item.image_rendering === 'pixelated',
+      });
     }
   }
 
@@ -21,7 +24,7 @@ async function main() {
   const manifest = {};
   let sourceBytes = 0;
   let previewBytes = 0;
-  for (const [image, source] of sources) {
+  for (const [image, { source, pixelated }] of sources) {
     const input = path.resolve(root, `.${source}`);
     if (!input.startsWith(`${path.join(root, 'assets', 'img')}${path.sep}`)) {
       throw new Error(`Image must be inside assets/img: ${source}`);
@@ -34,8 +37,8 @@ async function main() {
     for (const width of [...new Set(widths.map(width => Math.min(width, metadata.width)))]) {
       const filename = `${path.parse(source).name}-${hash}-${width}.webp`;
       const info = await sharp(bytes)
-        .resize({ width, withoutEnlargement: true })
-        .webp({ quality: 82, effort: 6, smartSubsample: true })
+        .resize({ width, withoutEnlargement: true, ...(pixelated ? { kernel: 'nearest' } : {}) })
+        .webp(pixelated ? { lossless: true, effort: 6 } : { quality: 82, effort: 6, smartSubsample: true })
         .toFile(path.join(outputDir, filename));
       variants.push({ path: `/assets/img/thumbnails/${filename}`, width: info.width, height: info.height, bytes: info.size });
     }

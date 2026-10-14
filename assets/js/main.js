@@ -66,6 +66,7 @@
     const openLightbox = (trigger) => {
       lastFocusedElement = trigger;
       lightboxImage.src = trigger.dataset.lightboxSrc;
+      lightboxImage.style.imageRendering = trigger.dataset.lightboxRendering || "";
       lightboxImage.alt = trigger.dataset.lightboxAlt || "";
       lightboxCaption.textContent = trigger.dataset.lightboxCaption || "";
       lightbox.hidden = false;
