@@ -25,8 +25,8 @@
   period: "2026"
   role: "Creator and developer"
   area: "Low-poly library simulation / Godot prototype / Chinese-language UI"
-  image: "/assets/img/covers/library-of-many-worlds-b2-centered.png"
-  image_fit: cover
+  image: "/assets/img/covers/library-of-many-worlds-bright-centered.webp"
+  image_fit: contain
   image_alt: "The Chinese title logo for Library of Many Worlds centered over a low-poly public library with reading desks, bookshelves, and visitors"
   summary: "Build and run a public library: plan its space, hire staff, balance book categories, and organize returns. Assess donations, host reading activities, respond to patron incidents, and pursue grants shaped by satisfaction, reputation, and complaints."
   links:
