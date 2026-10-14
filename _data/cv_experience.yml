@@ -59,19 +59,18 @@ research:
 work_creative:
   - title: National Science Library, Chinese Academy of Sciences
     title_zh: "中国科学院文献情报中心（国家科学图书馆）"
-    icon: exhibition
     logo: cas-seal.png
     description: Science exhibition curation and implementation intern, 2024.
     description_zh: "科学展览策划与实施实习生，2024 年。"
   - title: Tsinghua University Library
     title_zh: "清华大学图书馆"
-    icon: library
     logo: tsinghua-seal.png
     description: Multimedia Resources Services Librarian, 2021-2022.
     description_zh: "多媒体资源服务馆员，2021—2022。"
   - title: Bilibili
     title_zh: "哔哩哔哩"
-    icon: video
+    logo: bilibili-wordmark.svg
+    logo_style: wordmark
     description: Content creator, 2019-2021.
     description_zh: "内容创作者，2019—2021。"
   - title: Freelance Illustrator

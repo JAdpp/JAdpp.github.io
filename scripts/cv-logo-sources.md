@@ -11,9 +11,10 @@ Verified 2026-09-22 against current institutional websites and brand guidance, e
 | `tsinghua-future-lab.png` | Original PNG supplied by the site owner on 2026-09-22 for Future Laboratory. Retained unchanged, including its gray artwork and white background. Used once for the combined MindTrace / BrickSmart research entry; Tsinghua University Library keeps the university seal. |
 | `ruc-seal.png` | Red seal from the [official identity page](https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html), [source image](https://www.ruc.edu.cn/template/1/out/imgs/VI/1.png). The surrounding guide frame is not part of the seal. Replaces the gold seal-and-name composition. |
 | `cas-seal.png` | [Chinese Academy of Sciences website touch icon](https://www.cas.cn/lib/images/favicon.png); original retained as `cas.png` |
+| `bilibili-wordmark.svg` | Visible header SVG (`svg.header__logo`) on the [official Bilibili website](https://www.bilibili.com/), captured in installed Google Chrome on 2026-10-14. Original path and `viewBox="0 0 2240 1024"` retained; the inherited `var(--brand_blue)` fill is resolved to its observed official color `#00aeec` for standalone rendering. |
 | `vam-wordmark.svg` | Unchanged paths and viewBox of the `valogo` symbol in the [current V&A homepage SVG sprite](https://www.vam.ac.uk/assets/vam-sprite-336679439415943192abd08310316502cdd2edb65ff20acfeb4bd8ed7ce9287d.svg). Extracted with an XML parser into a standalone SVG. Replaces the turquoise touch-icon tile, not a claim of a new logo design. |
 
-Personal projects and entries without an explicit institution retain text-only presentation.
+The National Science Library and Tsinghua University Library entries reuse the official seal of their parent institution (Chinese Academy of Sciences and Tsinghua University respectively). These are parent-institution seals, not library-specific marks. Bilibili uses its official wordmark. Freelance illustration retains a simple pen-nib icon because no employer is named.
 
 ## Sizing
 
