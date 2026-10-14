@@ -15,9 +15,13 @@ en:
   footer: "Academic homepage of Yangming Zhang."
   cv_pdf: "CV"
 zh-CN:
-  description: "Yangming Zhang 的学术主页。武汉大学博士研究生，研究方向包括人机协作、多模态大语言模型智能体、文化智能，以及面向心理健康的人工智能。"
+  names:
+    "Yangming Zhang": "张扬明"
+    "Liang Zhao": "赵靓"
+    "Jie Xu": "许洁"
+  description: "张扬明的学术主页。武汉大学博士研究生，研究方向包括人机协作、多模态大语言模型智能体、文化智能，以及面向心理健康的人工智能。"
   skip_content: "跳转到正文"
-  homepage: "Yangming Zhang 的主页"
+  homepage: "张扬明的主页"
   primary_navigation: "主导航"
   language_switcher: "语言切换"
   switch_chinese: "切换到中文"
@@ -28,5 +32,5 @@ zh-CN:
   enlarge: "放大查看"
   project_links: "项目链接"
   publication_links: "论文链接"
-  footer: "Yangming Zhang 的学术主页。"
+  footer: "张扬明的学术主页。"
   cv_pdf: "简历（英文 PDF）"

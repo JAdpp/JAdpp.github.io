@@ -2,7 +2,7 @@
   <div class="site-header__inner">
     {% assign home_url = '/' %}{% if locale == 'zh-CN' %}{% assign home_url = '/zh/' %}{% endif %}
     <a class="site-title" href="{{ home_url | relative_url }}" aria-label="{{ ui.homepage }}">
-      <span class="site-title__name">{{ site.author.name }}</span>
+      <span class="site-title__name">{{ ui.names[site.author.name] | default: site.author.name | escape }}</span>
     </a>
     <nav class="site-nav" aria-label="{{ ui.primary_navigation }}">
       {% for item in site.nav %}

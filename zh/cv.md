@@ -6,13 +6,11 @@ lang: zh-CN
 translation_key: cv
 ---
 
-# Yangming Zhang {#yangming-zhang}
+# 张扬明 {#yangming-zhang}
 
 武汉大学信息管理学院博士研究生、[文化遗产智能计算实验室（ICLCH）](https://iclch.whu.edu.cn/)学生研究员。
 
 [下载公开版简历（英文 PDF）]({{ site.links.cv | relative_url }})
-
-公开版 PDF 已省略电话号码、直接联系邮箱及针对特定申请的表述。
 
 ## 研究方向 {#research-interests}
 
@@ -25,6 +23,10 @@ translation_key: cv
 ## 科研经历 {#research-experience}
 
 {% include cv-entry-list.html entries=site.data.cv_experience.research %}
+
+## 工作与创作经历 {#work-creative-experience}
+
+{% include cv-entry-list.html entries=site.data.cv_experience.work_creative %}
 
 ## 学术发表 {#publications}
 

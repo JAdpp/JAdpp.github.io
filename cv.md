@@ -12,8 +12,6 @@ Ph.D. student in the School of Information Management at Wuhan University and a 
 
 [Download the public CV (PDF)]({{ site.links.cv | relative_url }})
 
-The public PDF omits phone number, direct email, and application-specific wording.
-
 ## Research Interests {#research-interests}
 
 Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental wellbeing and education; digital cultural heritage; AI-native games.
@@ -25,6 +23,10 @@ Human-AI collaboration; culturally grounded multimodal LLM agents; AI for mental
 ## Research Experience {#research-experience}
 
 {% include cv-entry-list.html entries=site.data.cv_experience.research %}
+
+## Work & Creative Experience {#work-creative-experience}
+
+{% include cv-entry-list.html entries=site.data.cv_experience.work_creative %}
 
 ## Publications {#publications}
 

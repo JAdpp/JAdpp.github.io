@@ -1,0 +1,17 @@
+<svg class="cv-role-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="52" height="52" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  {% case include.icon %}
+    {% when 'exhibition' %}
+      <rect x="3" y="3" width="18" height="14" rx="1.5" />
+      <path d="m6 13 4-4 3 3 2-2 3 3M8 21h8M12 17v4" />
+      <circle cx="16" cy="7" r="1" />
+    {% when 'library' %}
+      <path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15M6 8h3M6 12h3" />
+      <path d="m15 8 4 3-4 3Z" />
+    {% when 'video' %}
+      <rect x="3" y="3" width="18" height="14" rx="2" />
+      <path d="m10 7 5 3-5 3ZM8 21h8M12 17v4" />
+    {% when 'illustration' %}
+      <path d="m12 3-7 13 7 5 7-5-7-13ZM12 3v8M5 16l4-2m10 2-4-2" />
+      <circle cx="12" cy="13" r="2" />
+  {% endcase %}
+</svg>

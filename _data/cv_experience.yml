@@ -13,8 +13,8 @@ education:
   - title: Wuhan University
     title_zh: "武汉大学"
     logo: whu-seal.png
-    description: B.Sc., School of Information Management, 2015-2019.
-    description_zh: "信息管理学院理学学士，2015—2019。"
+    description: Bachelor of Management, School of Information Management, 2015-2019.
+    description_zh: "信息管理学院管理学学士，2015—2019。"
 
 research:
   - title: Department of Information Management, Peking University
@@ -55,31 +55,40 @@ research:
     logo: ruc-seal.png
     description: Student researcher, 2023-2024.
     description_zh: "学生研究人员，2023—2024。"
+
+work_creative:
   - title: National Science Library, Chinese Academy of Sciences
     title_zh: "中国科学院文献情报中心（国家科学图书馆）"
+    icon: exhibition
     logo: cas-seal.png
     description: Science exhibition curation and implementation intern, 2024.
     description_zh: "科学展览策划与实施实习生，2024 年。"
-
-additional:
   - title: Tsinghua University Library
     title_zh: "清华大学图书馆"
+    icon: library
     logo: tsinghua-seal.png
     description: Multimedia Resources Services Librarian, 2021-2022.
     description_zh: "多媒体资源服务馆员，2021—2022。"
   - title: Bilibili
     title_zh: "哔哩哔哩"
+    icon: video
     description: Content creator, 2019-2021.
     description_zh: "内容创作者，2019—2021。"
   - title: Freelance Illustrator
     title_zh: "自由插画师"
+    icon: illustration
     description: 2015-2021.
     description_zh: "2015—2021。"
+
+additional:
+  # Retained for reference; excluded from both public CV pages.
   - title: Research on Chinese Academic Integrity Policy Data
+    visible: false
     title_zh: "中国学术诚信政策数据研究"
     description: Research intern, 2017.
     description_zh: "科研实习生，2017 年。"
   - title: Application of Virtual Reality in Chinese Public Libraries
+    visible: false
     title_zh: "虚拟现实在中国公共图书馆中的应用"
     description: Team leader, 2016-2017.
     description_zh: "团队负责人，2016—2017。"

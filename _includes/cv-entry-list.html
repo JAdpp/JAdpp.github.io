@@ -1,13 +1,18 @@
 {% assign list_locale = page.lang | default: 'en' %}
 <ul class="cv-entry-list" role="list">
   {% for entry in include.entries %}
+  {% unless entry.visible == false %}
   {% assign entry_title = entry.title %}{% assign entry_description = entry.description %}
   {% if list_locale == 'zh-CN' %}
     {% assign entry_title = entry.title_zh | default: entry.title %}
     {% assign entry_description = entry.description_zh | default: entry.description %}
   {% endif %}
   <li class="cv-entry">
-    {% if entry.logo %}
+    {% if entry.icon %}
+    <div class="cv-entry__logo cv-entry__logo--icon">
+      {% include cv-role-icon.html icon=entry.icon %}
+    </div>
+    {% elsif entry.logo %}
     <div class="cv-entry__logo{% if entry.logo_style == 'wordmark' %} cv-entry__logo--wordmark{% endif %}">
       <img src="{{ '/assets/img/institutions/' | append: entry.logo | relative_url }}" alt="" width="64" height="64" loading="lazy" decoding="async">
     </div>
@@ -30,5 +35,6 @@
       {% endif %}
     </div>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>

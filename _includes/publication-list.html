@@ -1,6 +1,8 @@
 {% assign list_locale = page.lang | default: 'en' %}{% assign list_ui = site.data.i18n[list_locale] %}
 <div class="publication-list">
   {% for pub in include.publications %}
+    {% assign pub_authors = pub.authors | escape %}
+    {% assign author_name = site.author.name %}
     {% assign pub_alt = pub.image_alt | default: pub.title %}
     {% assign pub_role = pub.role %}
     {% assign pub_venue = pub.venue %}
@@ -8,6 +10,10 @@
     {% assign pub_language = pub.language %}
     {% assign pub_summary = pub.summary %}
     {% if list_locale == 'zh-CN' %}
+      {% for person in list_ui.names %}
+        {% assign pub_authors = pub_authors | replace: person[0], person[1] %}
+      {% endfor %}
+      {% assign author_name = list_ui.names[site.author.name] | default: site.author.name %}
       {% assign pub_alt = pub.image_alt_zh | default: pub_alt %}
       {% assign pub_role = pub.role_zh | default: pub.role %}
       {% assign pub_venue = pub.venue_zh | default: pub.venue %}
@@ -25,7 +31,8 @@
       <div class="pub-item__body">
         <div class="pub-item__year">{{ pub.year }}</div>
         <h3>{{ pub.title }}</h3>
-        <p class="pub-item__authors">{{ pub.authors | replace: "Yangming Zhang", "<strong>Yangming Zhang</strong>" }}</p>
+        {% capture author_markup %}<strong>{{ author_name | escape }}</strong>{% endcapture %}
+        <p class="pub-item__authors">{{ pub_authors | replace: author_name, author_markup }}</p>
         <p class="pub-item__venue">{{ pub_venue }}</p>
         <p class="pub-item__meta">{{ pub_role }}{% if pub_type %} / {{ pub_type }}{% endif %}{% if pub_language %} / {{ pub_language }}{% endif %}</p>
         {% if pub.summary %}
