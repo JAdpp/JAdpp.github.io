@@ -830,7 +830,7 @@ h3 {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 960px) {
   .site-header__inner {
     grid-template-columns: minmax(0, 1fr) auto;
     grid-template-areas:
@@ -852,7 +852,9 @@ h3 {
   .theme-toggle {
     grid-area: toggle;
   }
+}
 
+@media (max-width: 780px) {
   .hero,
   .section-grid,
   .project-list,

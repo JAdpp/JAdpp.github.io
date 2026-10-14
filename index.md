@@ -65,11 +65,3 @@ title: Home
   {% assign featured_projects = site.data.projects | where: "featured", true | where_exp: "project", "project.category != 'games'" %}
   {% include project-list.html projects=featured_projects %}
 </section>
-
-<section id="games" aria-labelledby="games-heading">
-  <div class="section-heading">
-    <h2 id="games-heading">Games &amp; Interactive Experiences</h2>
-  </div>
-  {% assign games = site.data.projects | where: "category", "games" %}
-  {% include project-list.html projects=games %}
-</section>

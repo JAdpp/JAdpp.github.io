@@ -309,59 +309,59 @@
       }
     ]
   },
-  "/assets/img/covers/where-did-this-cat-come-from.png": {
-    "source": "/assets/img/covers/where-did-this-cat-come-from.png",
+  "/assets/img/covers/where-did-this-cat-come-from-title.png": {
+    "source": "/assets/img/covers/where-did-this-cat-come-from-title.png",
     "width": 640,
     "height": 360,
     "preview": {
-      "path": "/assets/img/thumbnails/where-did-this-cat-come-from-d67de8df8a-640.webp",
+      "path": "/assets/img/thumbnails/where-did-this-cat-come-from-title-c1ccc3254c-640.webp",
       "width": 640,
       "height": 360,
-      "bytes": 8612
+      "bytes": 19434
     },
     "variants": [
       {
-        "path": "/assets/img/thumbnails/where-did-this-cat-come-from-d67de8df8a-320.webp",
+        "path": "/assets/img/thumbnails/where-did-this-cat-come-from-title-c1ccc3254c-320.webp",
         "width": 320,
         "height": 180,
-        "bytes": 5262
+        "bytes": 8492
       },
       {
-        "path": "/assets/img/thumbnails/where-did-this-cat-come-from-d67de8df8a-640.webp",
+        "path": "/assets/img/thumbnails/where-did-this-cat-come-from-title-c1ccc3254c-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 8612
+        "bytes": 19434
       }
     ]
   },
-  "/assets/img/covers/library-of-many-worlds.png": {
-    "source": "/assets/img/covers/library-of-many-worlds.png",
+  "/assets/img/covers/library-of-many-worlds-logo.png": {
+    "source": "/assets/img/covers/library-of-many-worlds-logo.png",
     "width": 1920,
     "height": 1080,
     "preview": {
-      "path": "/assets/img/thumbnails/library-of-many-worlds-a7c0d4ec4f-640.webp",
+      "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-640.webp",
       "width": 640,
       "height": 360,
-      "bytes": 30128
+      "bytes": 30942
     },
     "variants": [
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-a7c0d4ec4f-320.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-320.webp",
         "width": 320,
         "height": 180,
-        "bytes": 11582
+        "bytes": 11786
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-a7c0d4ec4f-640.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30128
+        "bytes": 30942
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-a7c0d4ec4f-1080.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-1080.webp",
         "width": 1080,
         "height": 608,
-        "bytes": 59484
+        "bytes": 61026
       }
     ]
   },

@@ -12,9 +12,9 @@
   period: "2026"
   role: "Creator and developer"
   area: "Pixel-art roguelite / Godot prototype / Chinese-language UI"
-  image: "/assets/img/covers/where-did-this-cat-come-from.png"
+  image: "/assets/img/covers/where-did-this-cat-come-from-title.png"
   image_rendering: pixelated
-  image_alt: "An orange stray cat stands on a bus roof above layered bridge traffic, with a city skyline behind it"
+  image_alt: "The pixel-art title screen for Where Did This Cat Come From?, with its Chinese logo above an orange stray cat on a rainy city street"
   summary: "A side-scrolling stray-cat roguelite across connected streets, rooftops, and sewers. Meow, carry one item at a time, and rescue other animals while finding surreal second chances through a pet-prison escape and an underworld chase."
   links:
     - label: "Play prototype"
@@ -25,8 +25,8 @@
   period: "2026"
   role: "Creator and developer"
   area: "Low-poly library simulation / Godot prototype / Chinese-language UI"
-  image: "/assets/img/covers/library-of-many-worlds.png"
-  image_alt: "A low-poly public library with bookshelves, librarians assisting visitors, and patrons reading at desks in warm daylight"
+  image: "/assets/img/covers/library-of-many-worlds-logo.png"
+  image_alt: "The Chinese logo for Library of Many Worlds above a low-poly public library with bookshelves, librarians, and patrons reading at desks"
   summary: "Build and run a public library: plan its space, hire staff, balance book categories, and organize returns. Assess donations, host reading activities, respond to patron incidents, and pursue grants shaped by satisfaction, reputation, and complaints."
   links:
     - label: "Play prototype"
