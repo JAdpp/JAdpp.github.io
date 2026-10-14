@@ -8,11 +8,32 @@
     }
 
     const isDark = root.dataset.theme === "dark";
-    const label = isDark ? "Switch to light mode" : "Switch to dark mode";
+    const label = isDark ? themeToggle.dataset.lightLabel : themeToggle.dataset.darkLabel;
     themeToggle.setAttribute("aria-label", label);
     themeToggle.setAttribute("aria-pressed", String(isDark));
     themeToggle.title = label;
   };
+
+  const updateLanguageLinks = () => {
+    let sharedHash = "";
+    try {
+      if (window.location.hash && document.getElementById(decodeURIComponent(window.location.hash.slice(1)))) {
+        sharedHash = window.location.hash;
+      }
+    } catch (_) {
+      // Malformed or missing anchors should not prevent language navigation.
+    }
+    document.querySelectorAll("[data-language-link]").forEach((link) => {
+      const target = new URL(link.href);
+      target.search = window.location.search;
+      target.hash = sharedHash;
+      link.href = target.href;
+    });
+  };
+
+  updateLanguageLinks();
+  window.addEventListener("hashchange", updateLanguageLinks);
+  window.addEventListener("popstate", updateLanguageLinks);
 
   if (themeToggle) {
     updateThemeToggle();

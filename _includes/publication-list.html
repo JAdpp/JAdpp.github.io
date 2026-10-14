@@ -1,10 +1,24 @@
+{% assign list_locale = page.lang | default: 'en' %}{% assign list_ui = site.data.i18n[list_locale] %}
 <div class="publication-list">
   {% for pub in include.publications %}
+    {% assign pub_alt = pub.image_alt | default: pub.title %}
+    {% assign pub_role = pub.role %}
+    {% assign pub_venue = pub.venue %}
+    {% assign pub_type = pub.type %}
+    {% assign pub_language = pub.language %}
+    {% assign pub_summary = pub.summary %}
+    {% if list_locale == 'zh-CN' %}
+      {% assign pub_alt = pub.image_alt_zh | default: pub_alt %}
+      {% assign pub_role = pub.role_zh | default: pub.role %}
+      {% assign pub_venue = pub.venue_zh | default: pub.venue %}
+      {% assign pub_type = pub.type_zh | default: pub.type %}
+      {% assign pub_language = pub.language_zh | default: pub.language %}
+      {% assign pub_summary = pub.summary_zh | default: pub.summary %}
+    {% endif %}
     <article class="pub-item{% unless pub.image %} pub-item--text{% endunless %}">
       {% if pub.image %}
-        {% assign pub_alt = pub.image_alt | default: pub.title %}
         {% assign pub_full_image = pub.image_full | default: pub.image %}
-        <button class="pub-item__cover media-zoom-trigger{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% elsif pub.image_fit == 'cover' %} pub-item__cover--cover{% endif %}" type="button" data-lightbox-trigger data-lightbox-src="{{ pub_full_image | relative_url }}" data-lightbox-alt="{{ pub_alt | escape }}" data-lightbox-caption="{{ pub.title | escape }}" aria-label="Enlarge {{ pub.title | escape }}">
+        <button class="pub-item__cover media-zoom-trigger{% if pub.image_fit == 'contain' %} pub-item__cover--contain{% elsif pub.image_fit == 'cover' %} pub-item__cover--cover{% endif %}" type="button" data-lightbox-trigger data-lightbox-src="{{ pub_full_image | relative_url }}" data-lightbox-alt="{{ pub_alt | escape }}" data-lightbox-caption="{{ pub.title | escape }}" aria-label="{{ list_ui.enlarge }} {{ pub.title | escape }}">
           {% include thumbnail.html image=pub.image alt=pub_alt compact=true sizes="(max-width: 480px) calc(100vw - 28px), (max-width: 559px) calc(100vw - 40px), (max-width: 780px) 520px, 150px" %}
         </button>
       {% endif %}
@@ -12,15 +26,15 @@
         <div class="pub-item__year">{{ pub.year }}</div>
         <h3>{{ pub.title }}</h3>
         <p class="pub-item__authors">{{ pub.authors | replace: "Yangming Zhang", "<strong>Yangming Zhang</strong>" }}</p>
-        <p class="pub-item__venue">{{ pub.venue }}</p>
-        <p class="pub-item__meta">{{ pub.role }}{% if pub.type %} / {{ pub.type }}{% endif %}{% if pub.language %} / {{ pub.language }}{% endif %}</p>
+        <p class="pub-item__venue">{{ pub_venue }}</p>
+        <p class="pub-item__meta">{{ pub_role }}{% if pub_type %} / {{ pub_type }}{% endif %}{% if pub_language %} / {{ pub_language }}{% endif %}</p>
         {% if pub.summary %}
-          <p class="pub-item__summary">{{ pub.summary }}</p>
+          <p class="pub-item__summary">{{ pub_summary }}</p>
         {% endif %}
         {% if pub.links %}
-          <div class="link-row" aria-label="Publication links">
+          <div class="link-row" aria-label="{{ list_ui.publication_links }}">
             {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>
+              <a href="{{ link.url }}">{% if list_locale == 'zh-CN' %}{{ link.label_zh | default: link.label }}{% else %}{{ link.label }}{% endif %}</a>
             {% endfor %}
           </div>
         {% endif %}

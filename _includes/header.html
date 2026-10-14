@@ -1,14 +1,23 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-title" href="{{ '/' | relative_url }}" aria-label="Yangming Zhang homepage">
+    {% assign home_url = '/' %}{% if locale == 'zh-CN' %}{% assign home_url = '/zh/' %}{% endif %}
+    <a class="site-title" href="{{ home_url | relative_url }}" aria-label="{{ ui.homepage }}">
       <span class="site-title__name">{{ site.author.name }}</span>
     </a>
-    <nav class="site-nav" aria-label="Primary navigation">
+    <nav class="site-nav" aria-label="{{ ui.primary_navigation }}">
       {% for item in site.nav %}
-        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% assign nav_url = item.url %}{% assign nav_title = item.title %}
+        {% if locale == 'zh-CN' %}{% assign nav_url = '/zh' | append: item.url %}{% assign nav_title = item.title_zh %}{% endif %}
+        <a href="{{ nav_url | relative_url }}" {% if page.url == nav_url %}aria-current="page"{% endif %}>{{ nav_title | escape }}</a>
       {% endfor %}
     </nav>
-    <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+    <div class="site-header__controls">
+    <nav class="language-switcher" aria-label="{{ ui.language_switcher }}">
+      <a href="{{ chinese_page.url | default: '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" data-language-link aria-label="{{ ui.switch_chinese }}"{% if locale == 'zh-CN' %} aria-current="true"{% endif %}>中</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ english_page.url | default: '/' | relative_url }}" lang="en" hreflang="en" data-language-link aria-label="{{ ui.switch_english }}"{% if locale == 'en' %} aria-current="true"{% endif %}>英</a>
+    </nav>
+    <button class="theme-toggle" type="button" data-dark-label="{{ ui.dark_mode }}" data-light-label="{{ ui.light_mode }}" aria-label="{{ ui.dark_mode }}" aria-pressed="false" title="{{ ui.dark_mode }}">
       <svg class="theme-toggle__icon theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
       </svg>
@@ -24,5 +33,6 @@
         <path d="m19.07 4.93-1.41 1.41"></path>
       </svg>
     </button>
+    </div>
   </div>
 </header>

@@ -2,9 +2,11 @@
 layout: default
 title: Publications
 permalink: /publications/
+lang: en
+translation_key: publications
 ---
 
-# Publications
+# Publications {#publications}
 
 Selected academic publications and public-facing papers.
 

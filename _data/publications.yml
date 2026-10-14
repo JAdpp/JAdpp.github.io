@@ -1,50 +1,71 @@
 - title: "Artificial Wisdom: Designing and Evaluating Culturally Sensitive Agents for Confucian Philosophical Counseling"
   authors: "Liang Zhao*, Yangming Zhang*, Beiqi Ning, Lingyan Zhou, Bokai Chen, Weiwei Zheng, Xiaojun Ding"
   venue: "Under review, International Journal of Human-Computer Interaction"
+  venue_zh: "在审，International Journal of Human-Computer Interaction"
   year: 2027
   role: "Co-first author"
+  role_zh: "共同第一作者"
   type: "Manuscript under review"
+  type_zh: "在审稿件"
   featured: true
   image: "/assets/img/covers/artificial-wisdom.png"
   image_alt: "System architecture diagram for the CyberConfucius agent"
+  image_alt_zh: "CyberConfucius 智能体的系统架构图"
   summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
+  summary_zh: "一篇在审稿件，研究面向儒家哲学咨询、具有文化敏感性的智能体。"
 
 - title: "PocketMuseum: Supporting Unified Inspect-Inquire-Interpret Interactions for Immersive Cultural Heritage Exploration"
   authors: "Liang Zhao, Zhaoduo Li, Yangming Zhang, Qi Li*, Yue Gu*"
   venue: "Under review"
+  venue_zh: "在审"
   year: 2026
   role: "Co-author"
+  role_zh: "共同作者"
   type: "Manuscript under review"
+  type_zh: "在审稿件"
   featured: false
   image: "/assets/img/covers/pocketmuseum.png"
   image_alt: "PocketMuseum interfaces across several museum exploration scenarios"
+  image_alt_zh: "PocketMuseum 在多个博物馆探索场景中的界面"
   summary: "Under review manuscript on unified inspect-inquire-interpret interactions for immersive cultural heritage exploration."
+  summary_zh: "一篇在审稿件，研究用于沉浸式文化遗产探索的一体化“观察—提问—阐释”交互。"
 
 - title: "Co-teaching with AI: Designing and Evaluating a Learning Analytics Dashboard to Visualize Student-AI Interaction Traces"
   authors: "Siyu Zha, Yuqi Li, Yangming Zhang, Yujia Liu, Chengbo Zheng, Jiangtao Gong, Yingqing Xu"
   venue: "Under review, British Journal of Educational Technology"
+  venue_zh: "在审，British Journal of Educational Technology"
   year: 2026
   role: "Co-author"
+  role_zh: "共同作者"
   type: "Manuscript under review"
+  type_zh: "在审稿件"
   featured: true
   image: "/assets/img/covers/co-teaching-ai.png"
   image_alt: "MindTrace teacher dashboard overview from the Co-teaching with AI manuscript"
+  image_alt_zh: "Co-teaching with AI 稿件中的 MindTrace 教师仪表盘概览"
   summary: "Under review manuscript on a learning analytics dashboard for visualizing student-AI interaction traces."
+  summary_zh: "一篇在审稿件，研究用于可视化学生与 AI 交互轨迹的学习分析仪表盘。"
 
 - title: "When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support"
   authors: "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao"
   venue: "CHI EA 2026: Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems"
   year: 2026
   role: "First author"
+  role_zh: "第一作者"
   type: "Poster"
+  type_zh: "海报"
   featured: true
   image: "/assets/img/covers/verse-listens-back-figure-1.png"
   image_alt: "Complete Figure 1 from When Verse Listens Back, including three-stage interface mockups and the seven-step workflow"
+  image_alt_zh: "When Verse Listens Back 的完整图 1，包含三个阶段的界面示意与七步工作流程"
   summary: "We study how classical Chinese poetry can serve as a culturally grounded medium for multimodal AI-guided emotional support."
+  summary_zh: "我们研究如何以中国古典诗词为文化媒介，为多模态 AI 引导的情感支持提供基础。"
   links:
     - label: "DOI"
+      label_zh: "DOI"
       url: "https://doi.org/10.1145/3772363.3798550"
     - label: "ACM DL"
+      label_zh: "ACM 数字图书馆"
       url: "https://dl.acm.org/doi/10.1145/3772363.3798550"
 
 - title: "A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection"
@@ -52,16 +73,22 @@
   venue: "Digital Scholarship in the Humanities, 41(2), 692-714"
   year: 2026
   role: "Second author"
+  role_zh: "第二作者"
   type: "Journal article"
+  type_zh: "期刊论文"
   featured: true
   image: "/assets/img/covers/export-watercolours-figure-10-thumb.png"
   image_full: "/assets/img/covers/export-watercolours-figure-10.png"
   image_alt: "Complete radial tree of Chinese Iconography Thesaurus terms used to annotate the V&A Chinese export watercolour collection"
+  image_alt_zh: "用于标注 V&A 中国外销水彩画馆藏的中国图像主题词表术语完整径向树图"
   summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
+  summary_zh: "我们对 V&A 馆藏中国外销水彩画开展了元数据驱动的数字化与计算分析。"
   links:
     - label: "DOI"
+      label_zh: "DOI"
       url: "https://doi.org/10.1093/llc/fqag046"
     - label: "Oxford Academic"
+      label_zh: "Oxford Academic"
       url: "https://academic.oup.com/dsh/article/41/2/692/8662485"
 
 - title: "Poemithy: Leveraging Multimodal LLMs for Emotional Healing through Classical Chinese Poetry"
@@ -69,15 +96,21 @@
   venue: "UbiComp/ISWC Companion 2025"
   year: 2025
   role: "Co-first author"
+  role_zh: "共同第一作者"
   type: "Demonstration"
+  type_zh: "系统演示"
   featured: false
   image: "/assets/img/covers/poemithy.png"
   image_alt: "Three-stage workflow of the Poemithy system"
+  image_alt_zh: "Poemithy 系统的三阶段工作流程"
   summary: "We designed and demonstrated a multimodal LLM system that connects poetic interpretation, dialogue, and visual expression in an emotional-support workflow."
+  summary_zh: "我们设计并演示了一个多模态大语言模型系统，在情感支持流程中连接诗词解读、对话与视觉表达。"
   links:
     - label: "DOI"
+      label_zh: "DOI"
       url: "https://doi.org/10.1145/3714394.3754361"
     - label: "ACM DL"
+      label_zh: "ACM 数字图书馆"
       url: "https://dl.acm.org/doi/10.1145/3714394.3754361"
 
 - title: "\"It Helps Me Find Poetic Comfort in My Busy Life\": A Multimodal LLM-Based Classical Chinese Poetry Therapy System Framework"
@@ -85,13 +118,18 @@
   venue: "ASIS&T Annual Meeting 2025"
   year: 2025
   role: "First author"
+  role_zh: "第一作者"
   type: "Short paper"
+  type_zh: "短文"
   featured: false
   image: "/assets/img/covers/poetic-comfort.png"
   image_alt: "Poemithy prototype interface montage from the poetic comfort paper"
+  image_alt_zh: "“诗意慰藉”论文中的 Poemithy 原型界面组合图"
   summary: "We propose a system framework for classical Chinese poetry therapy and discuss early interaction insights for everyday emotional-support scenarios."
+  summary_zh: "我们提出了中国古典诗词疗愈系统框架，并讨论面向日常情感支持场景的初步交互发现。"
   links:
     - label: "ASIS&T"
+      label_zh: "ASIS&T"
       url: "https://www.asist.org/meetings-events/am/am25/am25-papers/"
 
 - title: "BrickSmart: Leveraging Generative AI to Support Children's Spatial Language Learning in Family Block Play"
@@ -99,15 +137,21 @@
   venue: "CHI 2025: ACM Conference on Human Factors in Computing Systems"
   year: 2025
   role: "Co-author"
+  role_zh: "共同作者"
   type: "Full paper"
+  type_zh: "完整论文"
   featured: true
   image: "/assets/img/covers/bricksmart-figure-1.png"
   image_alt: "Complete BrickSmart Figure 1 with three step headings, parent-child dialogue, and system workflow arrows"
+  image_alt_zh: "BrickSmart 完整图 1，包含三个步骤标题、亲子对话与系统流程箭头"
   summary: "We designed a generative AI-supported family block-play system to scaffold children's spatial language learning."
+  summary_zh: "我们设计了一个生成式人工智能支持的家庭积木游戏系统，为儿童的空间语言学习提供支架。"
   links:
     - label: "DOI"
+      label_zh: "DOI"
       url: "https://doi.org/10.1145/3706598.3714212"
     - label: "ACM DL"
+      label_zh: "ACM 数字图书馆"
       url: "https://dl.acm.org/doi/10.1145/3706598.3714212"
 
 - title: "Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online"
@@ -115,11 +159,16 @@
   venue: "Digital Humanities Research, 3(03), 49-58"
   year: 2023
   role: "Sole author"
+  role_zh: "独立作者"
   type: "Journal article"
+  type_zh: "期刊论文"
   language: "Chinese"
+  language_zh: "中文"
   featured: false
   image: "/assets/img/covers/sucho.png"
   image_alt: "Homepage of Saving Ukrainian Cultural Heritage Online"
+  image_alt_zh: "Saving Ukrainian Cultural Heritage Online 项目首页"
   links:
     - label: "Journal"
+      label_zh: "期刊"
       url: "https://dhr.ruc.edu.cn/EN/Y2023/V3/I3/49"

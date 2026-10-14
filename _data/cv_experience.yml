@@ -1,56 +1,90 @@
 education:
   - title: Wuhan University
+    title_zh: "武汉大学"
     logo: whu-seal.png
     description: Ph.D. student, School of Information Management / ICLCH, 2024-Present.
+    description_zh: "信息管理学院 / ICLCH 博士研究生，2024—至今。"
   - title: University College London (UCL)
+    title_zh: "伦敦大学学院（UCL）"
     logo: ucl-2026.svg
     logo_style: wordmark
     description: M.Sc. Digital Humanities, Department of Information Studies, 2022-2023. Distinction; Top 1; Dissertation Showcase; Dean's List.
+    description_zh: "信息研究系数字人文理学硕士，2022—2023。优等学位（Distinction）；排名第一；学位论文展示；院长荣誉名单。"
   - title: Wuhan University
+    title_zh: "武汉大学"
     logo: whu-seal.png
     description: B.Sc., School of Information Management, 2015-2019.
+    description_zh: "信息管理学院理学学士，2015—2019。"
 
 research:
   - title: Department of Information Management, Peking University
+    title_zh: "北京大学信息管理系"
     logo: pku-seal.png
     description: Visiting student, Sep 2025-Jan 2026.
+    description_zh: "访问学生，2025 年 9 月—2026 年 1 月。"
   - title: Future Laboratory, Tsinghua University
+    title_zh: "清华大学未来实验室"
     logo: tsinghua-future-lab.png
     description: Research intern, 2024 and 2025.
+    description_zh: "科研实习生，2024 年及 2025 年。"
     projects:
       - title: MindTrace
+        title_zh: "MindTrace"
         year: 2025
         description: Thought visualization and multi-agent educational systems.
+        description_zh: "思维可视化与多智能体教育系统。"
       - title: BrickSmart
+        title_zh: "BrickSmart"
         year: 2024
         description: Multimodal AI and family block-play learning.
+        description_zh: "多模态人工智能与家庭积木游戏学习。"
   - title: V&A Chinese Export Watercolours Digitization and Computational Analysis
+    title_zh: "V&A 中国外销水彩画数字化与计算分析"
     logo: vam-wordmark.svg
     logo_style: wordmark
     description: Research assistant / project researcher, 2022-2023. Digitization and computational analysis of the Victoria and Albert Museum collection.
+    description_zh: "研究助理 / 项目研究人员，2022—2023。参与维多利亚与阿尔伯特博物馆馆藏的数字化与计算分析。"
   - title: Generative AI for Digital Content Curation in Cultural Heritage
+    title_zh: "生成式人工智能在文化遗产数字内容策展中的应用"
     logo: ucl-2026.svg
     logo_style: wordmark
     description: M.Sc. dissertation, UCL, 2023. GPT-3.5 and DALL-E 2 prototype for virtual-exhibition curation.
+    description_zh: "伦敦大学学院硕士学位论文，2023 年。基于 GPT-3.5 与 DALL-E 2 的虚拟展览策展原型。"
   - title: Digital Humanities Institute, Renmin University of China
+    title_zh: "中国人民大学数字人文研究院"
     logo: ruc-seal.png
     description: Student researcher, 2023-2024.
+    description_zh: "学生研究人员，2023—2024。"
   - title: National Science Library, Chinese Academy of Sciences
+    title_zh: "中国科学院文献情报中心（国家科学图书馆）"
     logo: cas-seal.png
     description: Science exhibition curation and implementation intern, 2024.
+    description_zh: "科学展览策划与实施实习生，2024 年。"
 
 additional:
   - title: Tsinghua University Library
+    title_zh: "清华大学图书馆"
     logo: tsinghua-seal.png
     description: Multimedia Resources Services Librarian, 2021-2022.
+    description_zh: "多媒体资源服务馆员，2021—2022。"
   - title: Bilibili
+    title_zh: "哔哩哔哩"
     description: Content creator, 2019-2021.
+    description_zh: "内容创作者，2019—2021。"
   - title: Freelance Illustrator
+    title_zh: "自由插画师"
     description: 2015-2021.
+    description_zh: "2015—2021。"
   - title: Research on Chinese Academic Integrity Policy Data
+    title_zh: "中国学术诚信政策数据研究"
     description: Research intern, 2017.
+    description_zh: "科研实习生，2017 年。"
   - title: Application of Virtual Reality in Chinese Public Libraries
+    title_zh: "虚拟现实在中国公共图书馆中的应用"
     description: Team leader, 2016-2017.
+    description_zh: "团队负责人，2016—2017。"
   - title: Wuhan Library, Chinese Academy of Sciences
+    title_zh: "中国科学院武汉图书馆"
     logo: cas-seal.png
     description: Intern leader, 2018.
+    description_zh: "实习组长，2018 年。"

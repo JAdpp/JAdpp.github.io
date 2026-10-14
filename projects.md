@@ -2,9 +2,11 @@
 layout: default
 title: Projects
 permalink: /projects/
+lang: en
+translation_key: projects
 ---
 
-# Projects
+# Projects {#projects}
 
 Selected projects in Human-AI collaboration for mental wellbeing and learning, culturally grounded narrative and game intelligence, and digital cultural heritage.
 

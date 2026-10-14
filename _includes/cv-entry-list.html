@@ -1,5 +1,11 @@
+{% assign list_locale = page.lang | default: 'en' %}
 <ul class="cv-entry-list" role="list">
   {% for entry in include.entries %}
+  {% assign entry_title = entry.title %}{% assign entry_description = entry.description %}
+  {% if list_locale == 'zh-CN' %}
+    {% assign entry_title = entry.title_zh | default: entry.title %}
+    {% assign entry_description = entry.description_zh | default: entry.description %}
+  {% endif %}
   <li class="cv-entry">
     {% if entry.logo %}
     <div class="cv-entry__logo{% if entry.logo_style == 'wordmark' %} cv-entry__logo--wordmark{% endif %}">
@@ -7,12 +13,18 @@
     </div>
     {% endif %}
     <div class="cv-entry__content">
-      <h3>{{ entry.title | escape }}</h3>
-      <p>{{ entry.description | escape }}</p>
+      <h3>{{ entry_title | escape }}</h3>
+      <p>{{ entry_description | escape }}</p>
       {% if entry.projects %}
       <ul class="cv-entry__projects">
         {% for project in entry.projects %}
-        <li><strong>{{ project.title | escape }}</strong> ({{ project.year | escape }}): {{ project.description | escape }}</li>
+        {% assign cv_project_title = project.title %}{% assign cv_project_year = project.year %}{% assign cv_project_description = project.description %}
+        {% if list_locale == 'zh-CN' %}
+          {% assign cv_project_title = project.title_zh | default: project.title %}
+          {% assign cv_project_year = project.year_zh | default: project.year %}
+          {% assign cv_project_description = project.description_zh | default: project.description %}
+        {% endif %}
+        <li><strong>{{ cv_project_title | escape }}</strong> ({{ cv_project_year | escape }}): {{ cv_project_description | escape }}</li>
         {% endfor %}
       </ul>
       {% endif %}

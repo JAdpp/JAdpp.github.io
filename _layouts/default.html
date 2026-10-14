@@ -1,10 +1,18 @@
+{% assign locale = page.lang | default: 'en' %}
+{% assign ui = site.data.i18n[locale] %}
+{% assign english_page = site.pages | where: 'translation_key', page.translation_key | where: 'lang', 'en' | first %}
+{% assign chinese_page = site.pages | where: 'translation_key', page.translation_key | where: 'lang', 'zh-CN' | first %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ locale }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: ui.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% if english_page %}<link rel="alternate" hreflang="en" href="{{ english_page.url | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ english_page.url | absolute_url }}">{% endif %}
+    {% if chinese_page %}<link rel="alternate" hreflang="zh-CN" href="{{ chinese_page.url | absolute_url }}">{% endif %}
     <script>
       (() => {
         try {
@@ -20,7 +28,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">{{ ui.skip_content }}</a>
     {% include header.html %}
     <main id="main" class="page-shell">
       {{ content }}
@@ -28,9 +36,9 @@
     <div class="image-lightbox" data-lightbox hidden aria-hidden="true">
       <div class="image-lightbox__backdrop" data-lightbox-close></div>
       <div class="image-lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
-        <button class="image-lightbox__close" type="button" data-lightbox-close aria-label="Close enlarged image">
+        <button class="image-lightbox__close" type="button" data-lightbox-close aria-label="{{ ui.close_image }}">
           <span aria-hidden="true">&#215;</span>
-          <span class="visually-hidden">Close enlarged image</span>
+          <span class="visually-hidden">{{ ui.close_image }}</span>
         </button>
         <figure class="image-lightbox__figure">
           <img data-lightbox-image alt="" decoding="async">

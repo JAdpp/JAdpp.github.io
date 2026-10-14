@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Home
+lang: en
+translation_key: home
 ---
 
-<section class="hero">
+<section class="hero" id="about">
   <h1>Hi, I'm Yangming Zhang.</h1>
   <div class="hero__content">
     <p class="lead">
@@ -31,7 +33,7 @@ title: Home
 
 <section class="section-grid">
   <div>
-    <h2>Research Interests</h2>
+    <h2 id="research-interests">Research Interests</h2>
     <ul class="interest-list">
       <li>Human-AI collaboration for mental wellbeing and learning</li>
       <li>Culturally grounded multimodal agents, creative systems, and game intelligence</li>
@@ -39,7 +41,7 @@ title: Home
     </ul>
   </div>
   <div>
-    <h2>Latest News</h2>
+    <h2 id="latest-news">Latest News</h2>
     <div class="news-list">
       {% for item in site.data.news limit:4 %}
         <p><span>{{ item.date }}</span> {% if item.link %}<a href="{{ item.link }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</p>
@@ -50,7 +52,7 @@ title: Home
 
 <section>
   <div class="section-heading">
-    <h2>Featured Publications</h2>
+    <h2 id="featured-publications">Featured Publications</h2>
     <a href="{{ '/publications/' | relative_url }}">All publications</a>
   </div>
   {% assign featured_publications = site.data.publications | where: "featured", true %}
@@ -59,7 +61,7 @@ title: Home
 
 <section>
   <div class="section-heading">
-    <h2>Selected Projects</h2>
+    <h2 id="selected-projects">Selected Projects</h2>
     <a href="{{ '/projects/' | relative_url }}">All projects</a>
   </div>
   {% assign featured_projects = site.data.projects | where: "featured", true | where_exp: "project", "project.category != 'games'" %}

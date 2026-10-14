@@ -1,18 +1,26 @@
 - date: "Sep 2026"
+  date_zh: "2026年9月"
   text: "Butterfly Dream and Mind Travel were selected for the International Digital Humanities Festival for University Students (IDHFUS) 2026."
+  text_zh: "《梦蝶记》与《卧游》入选 2026 年国际大学生数字人文节（IDHFUS）。"
 
 - date: "Apr 2026"
+  date_zh: "2026年4月"
   text: "When Verse Listens Back appeared in CHI EA 2026."
+  text_zh: "When Verse Listens Back 发表于 CHI EA 2026。"
   link: "https://dl.acm.org/doi/10.1145/3772363.3798550"
 
 - date: "Apr 2026"
+  date_zh: "2026年4月"
   text: "The Chinese export watercolours study was published in Digital Scholarship in the Humanities."
+  text_zh: "中国外销水彩画研究发表于 Digital Scholarship in the Humanities。"
   link: "https://academic.oup.com/dsh/article/41/2/692/8662485"
 
 - date: "2025"
   text: "Poemithy was published in UbiComp/ISWC Companion 2025."
+  text_zh: "Poemithy 发表于 UbiComp/ISWC Companion 2025。"
   link: "https://dl.acm.org/doi/10.1145/3714394.3754361"
 
 - date: "2025"
   text: "BrickSmart was published at CHI 2025."
+  text_zh: "BrickSmart 发表于 CHI 2025。"
   link: "https://dl.acm.org/doi/10.1145/3706598.3714212"

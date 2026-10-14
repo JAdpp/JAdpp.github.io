@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Games & Interactive Experiences
+title: Games & Interaction
 permalink: /games/
+lang: en
+translation_key: games
 ---
 
-# Games & Interactive Experiences
+# Games & Interaction {#games}
 
 {% assign games = site.data.projects | where: "category", "games" %}
 {% include project-list.html projects=games %}

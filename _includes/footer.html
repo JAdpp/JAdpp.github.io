@@ -1,12 +1,12 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <p>Academic homepage of {{ site.author.name }}.</p>
+    <p>{{ ui.footer }}</p>
     <p>
       <a href="{{ site.links.scholar }}">Google Scholar</a>
       <span aria-hidden="true">/</span>
       <a href="{{ site.links.github }}">GitHub</a>
       <span aria-hidden="true">/</span>
-      <a href="{{ site.links.cv | relative_url }}">CV</a>
+      <a href="{{ site.links.cv | relative_url }}">{{ ui.cv_pdf }}</a>
       <span aria-hidden="true">/</span>
       <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     </p>
