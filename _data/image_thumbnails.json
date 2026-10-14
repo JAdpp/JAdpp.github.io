@@ -334,34 +334,34 @@
       }
     ]
   },
-  "/assets/img/covers/library-of-many-worlds-logo.png": {
-    "source": "/assets/img/covers/library-of-many-worlds-logo.png",
-    "width": 1920,
-    "height": 1080,
+  "/assets/img/covers/library-of-many-worlds-b2-centered.png": {
+    "source": "/assets/img/covers/library-of-many-worlds-b2-centered.png",
+    "width": 1440,
+    "height": 900,
     "preview": {
-      "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-640.webp",
+      "path": "/assets/img/thumbnails/library-of-many-worlds-b2-centered-022836fe21-640.webp",
       "width": 640,
-      "height": 360,
-      "bytes": 30942
+      "height": 400,
+      "bytes": 34078
     },
     "variants": [
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-320.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-b2-centered-022836fe21-320.webp",
         "width": 320,
-        "height": 180,
-        "bytes": 11786
+        "height": 200,
+        "bytes": 13142
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-640.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-b2-centered-022836fe21-640.webp",
         "width": 640,
-        "height": 360,
-        "bytes": 30942
+        "height": 400,
+        "bytes": 34078
       },
       {
-        "path": "/assets/img/thumbnails/library-of-many-worlds-logo-6fcd9cbc6f-1080.webp",
+        "path": "/assets/img/thumbnails/library-of-many-worlds-b2-centered-022836fe21-1080.webp",
         "width": 1080,
-        "height": 608,
-        "bytes": 61026
+        "height": 675,
+        "bytes": 67872
       }
     ]
   },
