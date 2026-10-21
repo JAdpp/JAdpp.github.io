@@ -13,8 +13,8 @@
   summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
   summary_zh: "基于多模态大语言模型的系统，探索以中国古典诗词为文化媒介提供情感支持，并通过原型与用户研究开展评估。"
 
-- title: "Snow Street (雪街)"
-  title_zh: "雪街 Snow Street"
+- title: "RESIDENT EVIL: Outbreak night"
+  title_zh: "RESIDENT EVIL: Outbreak night"
   category: games
   period: "2026"
   role: "Creator and developer"
@@ -23,8 +23,8 @@
   area_zh: "生存恐怖 / Godot 原型 / 非官方致敬作品"
   image: "/assets/img/covers/snow-street-demo-poster.png"
   image_fit: contain
-  image_alt: "Snow Street concept poster, not a gameplay screenshot: a survivor carries an antidote case through a snowy street beneath rooftop pursuers, with a hospital ahead"
-  image_alt_zh: "《雪街》概念海报，非游戏实机画面：幸存者携带解药箱穿过雪街，屋顶有追逐者，前方是医院"
+  image_alt: "RESIDENT EVIL: Outbreak night concept poster, not a gameplay screenshot: a survivor carries an antidote case through a snowy street beneath rooftop pursuers, with a hospital ahead"
+  image_alt_zh: "《RESIDENT EVIL: Outbreak night》概念海报，非游戏实机画面：幸存者携带解药箱穿过雪街，屋顶有追逐者，前方是医院"
   summary: "Carry an antidote through a snowbound street and reach the hospital while watching for rooftop pursuers. An unofficial, work-in-progress survival-horror demo, not affiliated with or endorsed by Resident Evil or its rights holders. The cover is concept artwork, not gameplay. Desktop browser, keyboard and mouse, and WebGL 2 required; first load is approximately 73 MB."
   summary_zh: "携带解药穿过积雪街道，在屋顶追逐者的威胁下抵达医院。非官方生存恐怖致敬作品，开发中 Demo，与《生化危机》及其权利方无隶属、合作或背书关系。封面为概念宣传图，非游戏实机画面。需电脑浏览器、键盘鼠标与 WebGL 2，首次加载约 73 MB。"
   links:
