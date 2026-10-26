@@ -14,22 +14,6 @@
   summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
   summary_zh: "一篇在审稿件，研究面向儒家哲学咨询、具有文化敏感性的智能体。"
 
-- title: "PocketMuseum: Supporting Unified Inspect-Inquire-Interpret Interactions for Immersive Cultural Heritage Exploration"
-  authors: "Liang Zhao, Zhaoduo Li, Yangming Zhang, Qi Li*, Yue Gu*"
-  venue: "Under review"
-  venue_zh: "在审"
-  year: 2026
-  role: "Co-author"
-  role_zh: "共同作者"
-  type: "Manuscript under review"
-  type_zh: "在审稿件"
-  featured: false
-  image: "/assets/img/covers/pocketmuseum.png"
-  image_alt: "PocketMuseum interfaces across several museum exploration scenarios"
-  image_alt_zh: "PocketMuseum 在多个博物馆探索场景中的界面"
-  summary: "Under review manuscript on unified inspect-inquire-interpret interactions for immersive cultural heritage exploration."
-  summary_zh: "一篇在审稿件，研究用于沉浸式文化遗产探索的一体化“观察—提问—阐释”交互。"
-
 - title: "Co-teaching with AI: Designing and Evaluating a Learning Analytics Dashboard to Visualize Student-AI Interaction Traces"
   authors: "Siyu Zha, Yuqi Li, Yangming Zhang, Yujia Liu, Chengbo Zheng, Jiangtao Gong, Yingqing Xu"
   venue: "Under review, British Journal of Educational Technology"
