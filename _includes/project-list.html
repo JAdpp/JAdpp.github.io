@@ -16,7 +16,9 @@
       {% assign project_summary = project.summary_zh | default: project.summary %}
     {% endif %}
     <article class="project-card">
-      {% if project.image %}
+      {% if project.preview_mp4 and page.translation_key == 'games' %}
+        {% include project-preview.html %}
+      {% elsif project.image %}
         {% assign project_full_image = project.image_full | default: project.image %}
         {% capture project_image_class %}project-card__cover{% if project.image_fit == 'contain' %} project-card__cover--contain{% elsif project.image_fit == 'cover' %} project-card__cover--cover{% endif %}{% if project.image_rendering == 'pixelated' %} project-card__cover--pixelated{% endif %}{% endcapture %}
         <button class="project-card__cover-trigger media-zoom-trigger{% if project.image_fit == 'contain' %} project-card__cover-trigger--contain{% elsif project.image_fit == 'cover' %} project-card__cover-trigger--cover{% endif %}" type="button" data-lightbox-trigger{% if project.image_rendering == 'pixelated' %} data-lightbox-rendering="pixelated"{% endif %} data-lightbox-src="{{ project_full_image | relative_url }}" data-lightbox-alt="{{ project_alt | escape }}" data-lightbox-caption="{{ project_title | escape }}" aria-label="{{ list_ui.enlarge }} {{ project_title | escape }}">

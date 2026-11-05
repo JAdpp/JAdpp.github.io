@@ -48,5 +48,6 @@
     </div>
     {% include footer.html %}
     <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" defer></script>
+    {% if page.translation_key == 'games' %}<script src="{{ '/assets/js/project-previews.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" defer></script>{% endif %}
   </body>
 </html>

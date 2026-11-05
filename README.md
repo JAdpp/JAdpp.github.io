@@ -33,3 +33,28 @@ npm run build:thumbnails
 ```
 
 The script reads both YAML files, resizes without cropping, and writes 320px, 640px, and 1080px variants plus `_data/image_thumbnails.json`. Content-hashed filenames refresh browser caches when the source changes. The browser selects a preview through `srcset`; the lightbox requests the original only on click. Node is used only for preparing assets, not by GitHub Pages or site visitors.
+
+## Game-card motion previews
+
+Only the English and Chinese Games & Interaction pages load the silent previews.
+Each loop uses 1.25 seconds of the title cover, verified development gameplay,
+and 1.25 seconds of the title cover. Preview files use H.264 MP4 rather than GIF
+for smaller transfers. The 640px variant serves narrow layouts and the 960px
+variant serves desktop cards; no audio track is included.
+
+`assets/js/project-previews.js` waits until a card is visible before adding a
+video source. Reduced-motion, Save-Data, and slow-connection visitors keep the
+static cover unless they explicitly play. Off-screen and background-tab videos
+pause, manual pauses persist, and failed playback falls back to the cover.
+Altair and dsh-whale-galgame remain static until verified motion footage exists.
+The development recording can be newer than the linked playable prototype.
+
+To prepare another loop from a verified recording:
+
+```sh
+scripts/build_game_preview.sh title-cover.png gameplay.mp4 assets/video/preview-name
+node --test scripts/tests/project-previews.test.cjs
+```
+
+Keep source recordings outside this public repository. Do not substitute concept
+art animation, staged screenshots, or cutscenes for footage labeled gameplay.

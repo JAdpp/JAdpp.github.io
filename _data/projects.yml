@@ -22,6 +22,12 @@
   area: "Survival horror / Godot prototype / Unofficial fan project"
   area_zh: "生存恐怖 / Godot 原型 / 非官方致敬作品"
   image: "/assets/img/covers/snow-street-demo-poster.png"
+  preview_mp4: "/assets/video/snow-street-preview-20261105-960.mp4"
+  preview_mp4_small: "/assets/video/snow-street-preview-20261105-640.mp4"
+  preview_note: "Development gameplay · unofficial fan project"
+  preview_note_zh: "开发中实机演示 · 非官方同人作品"
+  preview_description: "Concept title cover, followed by actual third-person tunnel exploration, then the cover again."
+  preview_description_zh: "概念标题封面之后，展示第三人称角色在隧道中的实际探索操作，最后回到封面。"
   image_fit: contain
   image_alt: "RESIDENT EVIL: OUTBREAK NIGHT concept poster, not a gameplay screenshot: a survivor carries an antidote case through a snowy street beneath rooftop pursuers, with a hospital ahead"
   image_alt_zh: "《RESIDENT EVIL: OUTBREAK NIGHT》概念海报，非游戏实机画面：幸存者携带解药箱穿过雪街，屋顶有追逐者，前方是医院"
@@ -32,8 +38,8 @@
       label_zh: "Prototype"
       url: "https://snow-street-demo.whiterhino16.chatgpt.site/game-v21.html"
 
-- title: "Where Did This Cat Come From? (哪来的猫)"
-  title_zh: "哪来的猫"
+- title: "Where Did This Cat Come From? (哪儿来的猫)"
+  title_zh: "哪儿来的猫"
   category: games
   period: "2026"
   role: "Creator and developer"
@@ -41,9 +47,15 @@
   area: "Pixel-art roguelite / Godot prototype / Chinese-language UI"
   area_zh: "像素风轻度 Roguelike / Godot 原型 / 中文界面"
   image: "/assets/img/covers/where-did-this-cat-come-from-title.png"
+  preview_mp4: "/assets/video/where-did-this-cat-preview-20261105-960.mp4"
+  preview_mp4_small: "/assets/video/where-did-this-cat-preview-20261105-640.mp4"
+  preview_note: "Development gameplay · normal speed"
+  preview_note_zh: "开发中实机演示 · 正常速度"
+  preview_description: "The corrected title cover for 哪儿来的猫, followed by the cat moving and jumping through a city street, then the cover again."
+  preview_description_zh: "《哪儿来的猫》新标题封面之后，展示猫在城市街道中的实际移动与跳跃，最后回到封面。"
   image_rendering: pixelated
   image_alt: "The pixel-art title screen for Where Did This Cat Come From?, with its Chinese logo above an orange stray cat on a rainy city street"
-  image_alt_zh: "《哪来的猫》的像素风标题画面：中文标志下方，一只橘色流浪猫站在雨中的城市街道上"
+  image_alt_zh: "《哪儿来的猫》的像素风标题画面：中文标志下方，一只橘色流浪猫站在雨中的城市街道上"
   summary: "A side-scrolling stray-cat roguelite across connected streets, rooftops, and sewers. Meow, carry one item at a time, and rescue other animals while finding surreal second chances through a pet-prison escape and an underworld chase."
   summary_zh: "一款以流浪猫为主角的横版轻度 Roguelike，穿行于相互连通的街道、屋顶与下水道。通过喵叫、单件物品携带和动物救援展开探索，并在宠物监狱逃脱与冥界追逐中寻找超现实的重来机会。"
   links:
@@ -60,6 +72,12 @@
   area: "Low-poly library simulation / Godot prototype / Chinese-language UI"
   area_zh: "低多边形风格图书馆模拟经营 / Godot 原型 / 中文界面"
   image: "/assets/img/covers/library-of-many-worlds-bold-outline.png"
+  preview_mp4: "/assets/video/library-worlds-preview-20261105-960.mp4"
+  preview_mp4_small: "/assets/video/library-worlds-preview-20261105-640.mp4"
+  preview_note: "Development gameplay · normal speed"
+  preview_note_zh: "开发中实机演示 · 正常速度"
+  preview_description: "The enlarged Library of Many Worlds title cover, followed by readers arriving and moving around the campus library, then the cover again."
+  preview_description_zh: "《万象图书馆》放大标题封面之后，展示高校馆课间读者入馆与流动的实际运行画面，最后回到封面。"
   image_fit: contain
   image_alt: "The Chinese title logo for Library of Many Worlds centered over a low-poly public library with reading desks, bookshelves, and visitors"
   image_alt_zh: "《万象图书馆》中文标题居中覆盖在低多边形风格的公共图书馆场景上，场景中有阅览桌、书架与读者"
