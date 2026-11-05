@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Usage: build_game_preview.sh <title-cover.png> <verified-gameplay.mp4> <output-stem>
-# Encodes a 1.25s title cover, unchanged gameplay, then a 1.25s title cover.
-# Inputs must be actual, verified gameplay. No frame synthesis or audio is used.
+# Usage: build_game_preview.sh <title-cover.png> <verified-preview.mp4> <output-stem>
+# Encodes a 1.25s title cover, unchanged project footage, then a 1.25s title cover.
+# Inputs must be verified source footage and labeled accurately on the page.
+# PV scenes must not be labeled gameplay. No frame synthesis or audio is used.
 set -euo pipefail
 poster="$1"; gameplay="$2"; stem="$3"
 mkdir -p "$(dirname "$stem")"

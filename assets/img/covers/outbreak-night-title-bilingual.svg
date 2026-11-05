@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">生化危机：爆发之夜 / RESIDENT EVIL: OUTBREAK NIGHT</title>
+  <desc id="desc">A bilingual typographic title card for the fan-game project.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080c12"/><stop offset="1" stop-color="#171319"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#722b32" stop-opacity=".24"/><stop offset="1" stop-color="#722b32" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <ellipse cx="480" cy="278" rx="450" ry="290" fill="url(#glow)"/>
+  <path d="M80 118H880 M80 422H880" stroke="#754047" stroke-width="1" opacity=".65"/>
+  <text x="480" y="198" text-anchor="middle" fill="#c5a0a1" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" letter-spacing="12">生化危机</text>
+  <text x="480" y="301" text-anchor="middle" fill="#f4efeb" font-family="Noto Sans CJK SC, sans-serif" font-size="80" font-weight="900" letter-spacing="8">爆发之夜</text>
+  <path d="M420 335H540" stroke="#bc444b" stroke-width="4"/>
+  <text x="480" y="379" text-anchor="middle" fill="#b9b5b6" font-family="sans-serif" font-size="20" font-weight="600" letter-spacing="3">RESIDENT EVIL: OUTBREAK NIGHT</text>
+</svg>
