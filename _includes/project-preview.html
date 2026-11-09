@@ -1,8 +1,12 @@
+{% assign preview_src = project.preview_mp4 %}
+{% assign preview_src_small = project.preview_mp4_small %}
 {% assign preview_note = project.preview_note %}
 {% assign preview_description = project.preview_description %}
 {% assign preview_play = 'Play preview' %}
 {% assign preview_pause = 'Pause preview' %}
 {% if list_locale == 'zh-CN' %}
+  {% assign preview_src = project.preview_mp4_zh | default: preview_src %}
+  {% assign preview_src_small = project.preview_mp4_small_zh | default: preview_src_small %}
   {% assign preview_note = project.preview_note_zh | default: preview_note %}
   {% assign preview_description = project.preview_description_zh | default: preview_description %}
   {% assign preview_play = '播放演示' %}
@@ -12,7 +16,7 @@
   <div class="project-preview__frame">
     {% capture preview_poster_class %}project-preview__poster{% if project.image_rendering == 'pixelated' %} project-preview__poster--pixelated{% endif %}{% endcapture %}
     {% include thumbnail.html image=project.image alt=project_alt class=preview_poster_class sizes="(max-width: 780px) calc(100vw - 40px), 542px" %}
-    <video class="project-preview__video" muted loop playsinline preload="none" width="960" height="540" data-preview-video data-src="{{ project.preview_mp4 | relative_url }}" data-src-small="{{ project.preview_mp4_small | relative_url }}" aria-label="{{ preview_description | escape }}"></video>
+    <video class="project-preview__video" muted loop playsinline preload="none" width="960" height="540" data-preview-video data-src="{{ preview_src | relative_url }}" data-src-small="{{ preview_src_small | relative_url }}" aria-label="{{ preview_description | escape }}"></video>
   </div>
   <figcaption class="project-preview__caption">
     <span>{{ preview_note }}</span>
@@ -21,5 +25,5 @@
       <button class="project-preview__enlarge media-zoom-trigger" type="button" data-lightbox-trigger{% if project.image_rendering == 'pixelated' %} data-lightbox-rendering="pixelated"{% endif %} data-lightbox-src="{{ project.image_full | default: project.image | relative_url }}" data-lightbox-alt="{{ project_alt | escape }}" data-lightbox-caption="{{ project_title | escape }}" aria-label="{{ list_ui.enlarge }} {{ project_title | escape }}">{{ list_ui.enlarge }}</button>
     </span>
   </figcaption>
-  <noscript><a href="{{ project.preview_mp4_small | relative_url }}">{{ preview_play }}</a></noscript>
+  <noscript><a href="{{ preview_src_small | relative_url }}">{{ preview_play }}</a></noscript>
 </figure>

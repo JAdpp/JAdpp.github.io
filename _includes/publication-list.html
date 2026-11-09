@@ -10,10 +10,6 @@
     {% assign pub_language = pub.language %}
     {% assign pub_summary = pub.summary %}
     {% if list_locale == 'zh-CN' %}
-      {% for person in list_ui.names %}
-        {% assign pub_authors = pub_authors | replace: person[0], person[1] %}
-      {% endfor %}
-      {% assign author_name = list_ui.names[site.author.name] | default: site.author.name %}
       {% assign pub_alt = pub.image_alt_zh | default: pub_alt %}
       {% assign pub_role = pub.role_zh | default: pub.role %}
       {% assign pub_venue = pub.venue_zh | default: pub.venue %}

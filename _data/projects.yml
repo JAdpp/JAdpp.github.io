@@ -22,11 +22,13 @@
   area: "Survival horror / Godot prototype / Unofficial fan project"
   area_zh: "生存恐怖 / Godot 原型 / 非官方致敬作品"
   image: "/assets/img/covers/outbreak-night-pv-v72-poster.jpg"
-  preview_mp4: "/assets/video/outbreak-night-pv-v72-20261105-960.mp4"
-  preview_mp4_small: "/assets/video/outbreak-night-pv-v72-20261105-640.mp4"
+  preview_mp4: "/assets/video/outbreak-night-pv-v72-en-20261109-960.mp4"
+  preview_mp4_zh: "/assets/video/outbreak-night-pv-v72-20261105-960.mp4"
+  preview_mp4_small: "/assets/video/outbreak-night-pv-v72-en-20261109-640.mp4"
+  preview_mp4_small_zh: "/assets/video/outbreak-night-pv-v72-20261105-640.mp4"
   preview_note: "PV highlights"
   preview_note_zh: "PV 精选片段"
-  preview_description: "Bilingual title card, followed by selected scenes from the project PV, then the title again."
+  preview_description: "English title card, followed by selected scenes from the project PV, then the title again."
   preview_description_zh: "中英文标题卡之后，展示项目 PV 中的精选镜头，最后回到标题。"
   image_fit: contain
   image_alt: "A still from the RESIDENT EVIL: OUTBREAK NIGHT project PV, showing characters and a creature in a dark corridor"
@@ -38,7 +40,7 @@
       label_zh: "Prototype"
       url: "https://snow-street-demo.whiterhino16.chatgpt.site/game-v21.html"
 
-- title: "Where Did This Cat Come From? (哪儿来的猫)"
+- title: "Where Did This Cat Come From?"
   title_zh: "哪儿来的猫"
   category: games
   period: "2026"
@@ -51,7 +53,7 @@
   preview_mp4_small: "/assets/video/where-did-this-cat-preview-20261105-640.mp4"
   preview_note: "Development gameplay · normal speed"
   preview_note_zh: "开发中实机演示 · 正常速度"
-  preview_description: "The corrected title cover for 哪儿来的猫, followed by the cat moving and jumping through a city street, then the cover again."
+  preview_description: "The title cover for Where Did This Cat Come From?, followed by the cat moving and jumping through a city street, then the cover again."
   preview_description_zh: "《哪儿来的猫》新标题封面之后，展示猫在城市街道中的实际移动与跳跃，最后回到封面。"
   image_rendering: pixelated
   image_alt: "The pixel-art title screen for Where Did This Cat Come From?, with its Chinese logo above an orange stray cat on a rainy city street"
@@ -63,7 +65,7 @@
       label_zh: "试玩原型"
       url: "https://before-home-stray-cat.whiterhino16.chatgpt.site"
 
-- title: "Library of Many Worlds (万象图书馆)"
+- title: "Library of Many Worlds"
   title_zh: "万象图书馆"
   category: games
   period: "2026"
@@ -124,7 +126,7 @@
       label_zh: "GitHub"
       url: "https://github.com/JAdpp/dsh-whale-galgame/tree/main"
 
-- title: "Co-Created Travel Journal (共笔手帐)"
+- title: "Co-Created Travel Journal"
   title_zh: "共笔手帐"
   period: "2026-Present"
   period_zh: "2026—至今"
@@ -146,7 +148,7 @@
       label_zh: "GitHub"
       url: "https://github.com/JAdpp/trip-canvas"
 
-- title: "Butterfly Dream (梦蝶记)"
+- title: "Butterfly Dream"
   title_zh: "梦蝶记"
   period: "2026-Present"
   period_zh: "2026—至今"
@@ -197,7 +199,7 @@
       label_zh: "论文"
       url: "https://doi.org/10.1145/3706598.3714212"
 
-- title: "Mind Travel (卧游)"
+- title: "Mind Travel"
   title_zh: "卧游"
   period: "2026-Present"
   period_zh: "2026—至今"

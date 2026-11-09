@@ -48,7 +48,12 @@ static cover unless they explicitly play. Off-screen and background-tab videos
 pause, manual pauses persist, and failed playback falls back to the cover.
 Altair and dsh-whale-galgame remain static until verified motion footage exists.
 OUTBREAK NIGHT uses a PV excerpt, clearly labeled PV highlights rather than gameplay.
-Its opening and closing bilingual typography is an editable SVG title card.
+Its opening and closing typography uses language-specific previews: English-only on
+the English page, with the original bilingual title card preserved on the Chinese page.
+Optional `preview_mp4_zh` and `preview_mp4_small_zh` select the Chinese media;
+other projects fall back to their shared footage. English project titles omit
+Chinese parenthetical names. Publication author names retain their original
+English spelling on both languages, including the author highlight.
 The development recording can be newer than the linked playable prototype.
 
 To prepare another loop from a verified recording:
