@@ -115,6 +115,12 @@
   area_zh: "智能体运行框架、多模型角色系统、游戏智能"
   featured: true
   image: "/assets/img/covers/dsh-whale-galgame.jpg"
+  preview_mp4: "/assets/video/dsh-whale-galgame-feature-preview-960.mp4"
+  preview_mp4_small: "/assets/video/dsh-whale-galgame-feature-preview-640.mp4"
+  preview_note: "Feature demo"
+  preview_note_zh: "功能演示"
+  preview_description: "An excerpt from the project PV showing the visual novel interface in use."
+  preview_description_zh: "项目 PV 中展示视觉小说界面操作的片段。"
   image_alt: "dsh-whale-galgame running in DeepSeek Harness with a model character, relationship state, and reply choices"
   image_alt_zh: "在 DeepSeek Harness 中运行的 dsh-whale-galgame，展示模型角色、关系状态与回复选项"
   summary: "An open-source multi-model visual novel plugin for DeepSeek Harness. It turns bounded cross-session task cues into character interactions across six model personas, while separating character presentation from reply-model routing and preserving per-character relationship state, dialogue, side stories, and optional CGs."
