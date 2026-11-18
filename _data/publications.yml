@@ -86,7 +86,7 @@
   featured: false
   image: "/assets/img/covers/poemithy.png"
   image_alt: "Three-stage workflow of the Poemithy system"
-  image_alt_zh: "Poemithy 系统的三阶段工作流程"
+  image_alt_zh: "愈心诗系统的三阶段工作流程"
   summary: "We designed and demonstrated a multimodal LLM system that connects poetic interpretation, dialogue, and visual expression in an emotional-support workflow."
   summary_zh: "我们设计并演示了一个多模态大语言模型系统，在情感支持流程中连接诗词解读、对话与视觉表达。"
   links:
@@ -108,7 +108,7 @@
   featured: false
   image: "/assets/img/covers/poetic-comfort.png"
   image_alt: "Poemithy prototype interface montage from the poetic comfort paper"
-  image_alt_zh: "“诗意慰藉”论文中的 Poemithy 原型界面组合图"
+  image_alt_zh: "“诗意慰藉”论文中的愈心诗原型界面组合图"
   summary: "We propose a system framework for classical Chinese poetry therapy and discuss early interaction insights for everyday emotional-support scenarios."
   summary_zh: "我们提出了中国古典诗词疗愈系统框架，并讨论面向日常情感支持场景的初步交互发现。"
   links:

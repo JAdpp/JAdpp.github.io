@@ -171,7 +171,7 @@ HONORS = [
     "First-Class Academic Excellence Scholarship, School of Information Management, Wuhan University, 2025.",
     "First-Class Guangdong Xinhua Elite Scholarship, Wuhan University.",
     "UCL Faculty of Arts and Humanities Dean's List; Distinction / Top 1 in M.Sc. Digital Humanities; Dissertation Showcase, 2023.",
-    "Merit Award, Global Digital Intelligence Education Innovation Competition; CDH2024 AIGC Excellent Project Award, for Poemithy.",
+    "Bronze Award, Global Digital Intelligence Education Innovation Competition; CDH2024 AIGC Excellent Project Award, for Poemithy.",
     "Excellent Graduation Thesis Nomination, Wuhan University, 2019; Excellent Practical Student Researcher, 2016.",
 ]
 

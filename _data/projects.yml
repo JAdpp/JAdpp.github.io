@@ -1,5 +1,5 @@
 - title: "Poemithy / Classical Chinese Poetry Therapy"
-  title_zh: "Poemithy / 中国古典诗词疗愈"
+  title_zh: "愈心诗"
   period: "2024-Present"
   period_zh: "2024—至今"
   role: "Project lead"
@@ -9,7 +9,7 @@
   featured: true
   image: "/assets/img/covers/poemithy-project.png"
   image_alt: "Poemithy landing page with a classical Chinese poetry title and poet guide"
-  image_alt_zh: "Poemithy 首页，展示中国古典诗词标题与诗人向导"
+  image_alt_zh: "愈心诗首页，展示中国古典诗词标题与诗人向导"
   summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
   summary_zh: "基于多模态大语言模型的系统，探索以中国古典诗词为文化媒介提供情感支持，并通过原型与用户研究开展评估。"
 
@@ -210,13 +210,13 @@
   role: "Project lead"
   role_zh: "项目负责人"
   area: "Evidence-grounded agents, AI curation, digital cultural heritage"
-  area_zh: "以证据为依据的智能体、AI 策展、数字文化遗产"
+  area_zh: "基于馆藏元数据的 AI 策展与数字文化遗产"
   featured: false
   image: "/assets/img/covers/woyou.png"
   image_alt: "Homepage of Mind Travel with an AI curator and an open museum collection wall"
   image_alt_zh: "卧游首页，展示 AI 策展人与开放博物馆藏品墙"
   summary: "An evidence-grounded AI curator that turns visitor questions into source-traceable 3D and 2D virtual exhibitions drawn from openly licensed museum collections. Its controlled agent workflow separates institutional records, curatorial interpretation, and uncertainty."
-  summary_zh: "以证据为依据的 AI 策展人，围绕参观者的问题，利用开放许可的博物馆藏品生成来源可追溯的三维与二维虚拟展览。受控的智能体工作流程区分机构记录、策展阐释与不确定信息。"
+  summary_zh: "卧游是一款基于博物馆馆藏元数据的 AI 策展工具。它围绕观众的问题，从开放许可的馆藏中选取展品，生成来源可追溯的二维与三维虚拟展览。受控的智能体工作流程区分机构记录、策展阐释与不确定信息。"
   links:
     - label: "GitHub"
       label_zh: "GitHub"

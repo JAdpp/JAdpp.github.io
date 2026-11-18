@@ -39,7 +39,7 @@ translation_key: cv
 
 ## 代表项目 {#selected-projects}
 
-- **Poemithy / 古典诗词疗愈** — 立足文化语境、提供情感支持的多模态大语言模型交互系统。[GitHub](https://github.com/JAdpp)
+- **愈心诗** — 立足文化语境、提供情感支持的多模态大语言模型交互系统。[GitHub](https://github.com/JAdpp)
 - **dsh-whale-galgame** — 面向 DeepSeek Harness 的开源多模型视觉小说插件。[GitHub](https://github.com/JAdpp/dsh-whale-galgame)
 - **共创旅行手账（Trip Canvas）** — 支持可编辑视觉手账、对象清单与迷你漫画的智能体技能。[GitHub](https://github.com/JAdpp/trip-canvas)
 - **Butterfly Dream** — 立足文化语境的交互叙事项目。[GitHub](https://github.com/JAdpp/myth-ritual-demo)
@@ -52,10 +52,10 @@ translation_key: cv
 ## 荣誉与奖励 {#honors-and-awards}
 
 - 武汉大学信息管理学院一等学业奖学金，2025 年。
-- 武汉大学 Guangdong Xinhua Elite Scholarship 一等奖学金。
+- 武汉大学广东新华菁英奖学金一等奖。
 - 伦敦大学学院（UCL）人文艺术学院院长荣誉名单；优等成绩（Distinction）／第 1 名（Top 1）；学位论文展示，2023 年。
-- Poemithy 获 Global Digital Intelligence Education Innovation Competition 优秀奖（Merit Award）、CDH2024 AIGC 优秀项目奖。
-- 武汉大学优秀毕业论文提名，2019 年；获 Excellent Practical Student Researcher 荣誉，2016 年。
+- 愈心诗获全球数智教育创新大赛铜奖、CDH2024 AIGC 优秀项目奖。
+- 武汉大学优秀毕业论文提名，2019 年；获优秀学生科研实践者称号，2016 年。
 
 ## 技能 {#skills}
 
