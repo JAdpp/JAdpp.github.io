@@ -15,7 +15,7 @@ translation_key: home
       My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage, and to AI-native games and interactive narratives. I build interactive prototypes and evaluate them through user studies and mixed methods.
     </p>
     <p>
-      Previously, I received an M.Sc. in Digital Humanities from University College London (UCL) and a Bachelor of Management from Wuhan University. Outside research, I enjoy creating fan works inspired by anime and games.
+      I hold an M.Sc. in Digital Humanities from University College London (UCL) and have worked or interned at Tsinghua University, Peking University, Renmin University of China, and the Chinese Academy of Sciences. Outside research, I create carefully crafted fan works inspired by anime and video games.
     </p>
   </div>
   <aside class="hero__aside">
