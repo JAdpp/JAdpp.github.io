@@ -34,9 +34,9 @@ npm run build:thumbnails
 
 The script reads both YAML files, resizes without cropping, and writes 320px, 640px, and 1080px variants plus `_data/image_thumbnails.json`. Content-hashed filenames refresh browser caches when the source changes. The browser selects a preview through `srcset`; the lightbox requests the original only on click. Node is used only for preparing assets, not by GitHub Pages or site visitors.
 
-## Game-card motion previews
+## Project-card motion previews
 
-Only the English and Chinese Games & Interaction pages load the silent previews.
+Silent previews appear on the English and Chinese Games & Interaction and Projects pages, and on featured project cards on the homepage when a preview is available.
 Most loops use 1.25 seconds of the title cover, verified project footage,
 and 1.25 seconds of the title cover. Preview files use H.264 MP4 rather than GIF
 for smaller transfers. The 640px variant serves narrow layouts and the 960px

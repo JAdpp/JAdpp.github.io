@@ -16,7 +16,7 @@
       {% assign project_summary = project.summary_zh | default: project.summary %}
     {% endif %}
     <article class="project-card">
-      {% if project.preview_mp4 and page.translation_key == 'games' %}
+      {% if project.preview_mp4 %}
         {% include project-preview.html %}
       {% elsif project.image %}
         {% assign project_full_image = project.image_full | default: project.image %}
