@@ -37,7 +37,7 @@ The script reads both YAML files, resizes without cropping, and writes 320px, 64
 ## Game-card motion previews
 
 Only the English and Chinese Games & Interaction pages load the silent previews.
-Each loop uses 1.25 seconds of the title cover, verified project footage,
+Most loops use 1.25 seconds of the title cover, verified project footage,
 and 1.25 seconds of the title cover. Preview files use H.264 MP4 rather than GIF
 for smaller transfers. The 640px variant serves narrow layouts and the 960px
 variant serves desktop cards; no audio track is included.
@@ -47,9 +47,7 @@ video source. Reduced-motion, Save-Data, and slow-connection visitors keep the
 static cover unless they explicitly play. Off-screen and background-tab videos
 pause, manual pauses persist, and failed playback falls back to the cover.
 Altair and dsh-whale-galgame remain static until verified motion footage exists.
-OUTBREAK NIGHT uses a PV excerpt, clearly labeled PV highlights rather than gameplay.
-Its opening and closing typography uses language-specific previews: English-only on
-the English page, with the original bilingual title card preserved on the Chinese page.
+OUTBREAK NIGHT uses a gameplay-only recording with no opening or closing title card.
 Optional `preview_mp4_zh` and `preview_mp4_small_zh` select the Chinese media;
 other projects fall back to their shared footage. English project titles omit
 Chinese parenthetical names. Publication author names retain their original
