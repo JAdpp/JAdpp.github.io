@@ -73,11 +73,16 @@ work_creative:
     logo_style: wordmark
     description: Content creator, 2019-2021.
     description_zh: "内容创作者，2019—2021。"
-  - title: Freelance Illustrator
-    title_zh: "自由插画师"
+  - title: Freelance Digital Illustrator
+    title_zh: "自由数字插画师"
     icon: illustration
     description: 2015-2021.
     description_zh: "2015—2021。"
+  - title: Wuhan Library, Chinese Academy of Sciences
+    title_zh: "中国科学院武汉图书馆"
+    logo: cas-seal.png
+    description: Data processing and science communication editing intern, 2018.
+    description_zh: "数据处理与科普编辑实习生，2018 年。"
 
 additional:
   # Retained for reference; excluded from both public CV pages.
@@ -91,8 +96,3 @@ additional:
     title_zh: "虚拟现实在中国公共图书馆中的应用"
     description: Team leader, 2016-2017.
     description_zh: "团队负责人，2016—2017。"
-  - title: Wuhan Library, Chinese Academy of Sciences
-    title_zh: "中国科学院武汉图书馆"
-    logo: cas-seal.png
-    description: Intern, 2018.
-    description_zh: "实习生，2018 年。"
