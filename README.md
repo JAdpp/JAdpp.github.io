@@ -47,7 +47,7 @@ video source. Reduced-motion, Save-Data, and slow-connection visitors keep the
 static cover unless they explicitly play. Off-screen and background-tab videos
 pause, manual pauses persist, and failed playback falls back to the cover.
 Altair remains static. dsh-whale-galgame uses a UI-focused excerpt from its project PV.
-OUTBREAK NIGHT uses a gameplay-only recording with no opening or closing title card.
+OUTBREAK NIGHT uses action excerpts from its v7.2 concept PV with no opening or closing title card.
 Optional `preview_mp4_zh` and `preview_mp4_small_zh` select the Chinese media;
 other projects fall back to their shared footage. English project titles omit
 Chinese parenthetical names. Publication author names retain their original
